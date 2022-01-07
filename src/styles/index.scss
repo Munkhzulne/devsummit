@@ -30,6 +30,9 @@ $font-sizes: 18, 32, 48, 80, 24;
   &-18 {
     font-size: max(1.2vw, 18px) !important;
   }
+  &-16 {
+    font-size: max(1.2vw, 16px) !important;
+  }
 }
 .main {
   margin: 0;
@@ -77,8 +80,12 @@ $font-sizes: 18, 32, 48, 80, 24;
     height: 14vw;
     left: -60px;
     top: 15rem;
-    
-    background: radial-gradient(613.25% 235.35% at 42.73% 100%, #3A676B 0%, #202459 100%);
+
+    background: radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #3a676b 0%,
+      #202459 100%
+    );
     opacity: 0.8;
     filter: blur(4vw);
   }
@@ -104,7 +111,6 @@ $font-sizes: 18, 32, 48, 80, 24;
     background-size: contain;
     left: 5vw;
     top: 31vw;
-
   }
   &-about2 {
     background-image: url("../images/cube.svg");

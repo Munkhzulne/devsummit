@@ -11,15 +11,16 @@ import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
 import { ShortDetails } from "../components/short-detail"
 import { WhatIsSummit } from "../components/about-summit"
+import Speakers from "../components/speakers"
 const IndexPage = () => {
   return (
     <div className="main">
       <Stack gap={5}>
-      <DevHeader />
-        <Hero/>
-        <ShortDetails/>
-        <WhatIsSummit/>
-
+        <DevHeader />
+        <Hero />
+        <ShortDetails />
+        <WhatIsSummit />
+        <Speakers />
       </Stack>
     </div>
   )

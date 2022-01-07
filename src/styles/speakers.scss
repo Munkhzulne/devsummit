@@ -1,0 +1,97 @@
+.justify-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.wp100 {
+  width: 100%;
+}
+.mx-8p {
+  margin-right: 8.33%;
+  margin-left: 8.33%;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.tabStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  border: 1px solid #ffffff !important;
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  margin-right: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.tabStyle:hover {
+  background-color: rgba($color: #ffffff, $alpha: 0.2);
+  color: #ffffff;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #202459;
+  background-color: none !important;
+}
+.nav-tabs {
+  border: none;
+}
+.cardImage {
+  width: 236px;
+  height: 254px;
+  border-radius: 0;
+  margin-bottom: 8px !important;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 0.2s;
+}
+.cardContainer {
+  width: 236px !important;
+  padding: 0;
+  border-radius: 0;
+}
+.card {
+  background-color: transparent;
+  border: 0;
+  margin-right: 26px;
+  margin-bottom: 74px;
+}
+.tab-content {
+  flex-wrap: wrap;
+}
+.mx0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.mt56 {
+  margin-top: 56px;
+}
+.cardDesc {
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.card-body {
+  padding: 8px 0px;
+}
+
+.cardImage:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+@media only screen and (max-width: 768px) {
+  .tabStyle {
+    font-size: 16px;
+    padding: 5px 8px;
+    margin-right: 16px;
+  }
+  .tabData {
+    display: flex;
+    justify-content: center;
+  }
+  .cardContainer {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
