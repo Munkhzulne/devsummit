@@ -11,8 +11,8 @@ $theme-colors: (
     font-weight: bold;
   }
   &-huge {
-    font-size: max(5vw, 60px) !important;
-    line-height: max(5vw, 60px);
+    font-size: max(5vw, 58px) !important;
+    line-height: max(5vw, 58px);
   }
   &-header {
     font-size: max(2.8vw, 36px) !important;
@@ -38,6 +38,7 @@ $theme-colors: (
   }
 }
 .main {
+  overflow-x: hidden;
   margin: 0;
   background-color: $primary;
   background: url("../images/repeated-square.png"), #202459;
@@ -78,10 +79,10 @@ $theme-colors: (
 .circle {
   &-man1 {
     position: absolute;
-    width: 17vw;
-    height: 17vw;
-    right: 20px;
-    top: -20px;
+    width: 26vw;
+    height: 26vw;
+    right: 26px;
+    top: -52px;
 
     background: radial-gradient(
       397.97% 418.32% at 89.13% 25.38%,
@@ -89,7 +90,7 @@ $theme-colors: (
       #202459 100%
     );
     opacity: 0.8;
-    filter: blur(5vw);
+    filter: blur(6vw);
   }
   &-man2 {
     position: absolute;
@@ -155,8 +156,6 @@ $theme-colors: (
     display: flex;
     justify-content: center;
   }
-}
-@media screen and (min-width: 1200px) {
   .cont-big {
     padding: 4vw !important;
     padding-top: 4rem !important;
@@ -165,7 +164,31 @@ $theme-colors: (
     align-items: center;
   }
 }
-
+@media screen and (max-width: 1200px) {
+  .cont {
+    padding: 2vw !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    display: flex;
+    justify-content: center;
+  }
+  .cont-big {
+    padding: 2vw !important;
+    padding-top: 2rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.column-pre {
+  width: 25%;
+  float: left;
+}
+@media screen and (max-width: 600px) {
+  .column-pre {
+    width: 100%;
+  }
+}
 table {
   border: none !important;
 }
@@ -229,6 +252,10 @@ tr {
   }
 }
 .pre-summit {
+  background-color: #0e1528 !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/pre-bg.png");
 }
 .row-margin-none {
   margin-right: 0 !important;
