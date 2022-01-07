@@ -80,6 +80,36 @@
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
+.topCircle {
+  width: 446px;
+  height: 446px;
+  background: radial-gradient(
+    613.25% 235.35% at 42.73% 100%,
+    #93d2f4 0%,
+    #202459 100%
+  );
+  position: absolute;
+  opacity: 0.8;
+  filter: blur(151.938px);
+  left: 0;
+}
+.bottomCircle {
+  width: 304px;
+  height: 304px;
+  background: radial-gradient(
+    613.25% 235.35% at 42.73% 100%,
+    #6ed270 0%,
+    #202459 100%
+  );
+  opacity: 0.8;
+  filter: blur(151.938px);
+  position: absolute;
+  right: 200px;
+  top: 800px;
+}
+.relative {
+  position: relative;
+}
 @media only screen and (max-width: 768px) {
   .tabStyle {
     font-size: 16px;

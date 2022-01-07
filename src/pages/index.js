@@ -11,6 +11,7 @@ import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
 import { ShortDetails } from "../components/short-detail"
 import { WhatIsSummit } from "../components/about-summit"
+import { Where } from "../components/where"
 import Speakers from "../components/speakers"
 const IndexPage = () => {
   return (
@@ -21,6 +22,7 @@ const IndexPage = () => {
         <ShortDetails />
         <WhatIsSummit />
         <Speakers />
+        <Where />
       </Stack>
     </div>
   )
