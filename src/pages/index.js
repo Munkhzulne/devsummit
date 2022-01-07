@@ -13,6 +13,7 @@ import { ShortDetails } from "../components/short-detail"
 import { WhatIsSummit } from "../components/about-summit"
 import { Where } from "../components/where"
 import Speakers from "../components/speakers"
+import { Agenda } from "../components/agenda"
 const IndexPage = () => {
   return (
     <div className="main">
@@ -23,6 +24,7 @@ const IndexPage = () => {
         <WhatIsSummit />
         <Speakers />
         <Where />
+        <Agenda/>
       </Stack>
     </div>
   )
