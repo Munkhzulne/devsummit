@@ -5,9 +5,10 @@ import portrait from "../images/portrait2.png"
 import { SecondaryButton } from "./buttons"
 import { Profile } from "./speakers"
 
-const data = new Array(8).fill({
+const data = new Array(4).fill({
   profileImage: portrait,
-  name: "Erdene-Jargal",
+  lastName: "Bilguun-Erdene",
+  firstname: "Erdene-Jargal",
   description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
 })
 
@@ -18,10 +19,9 @@ export const PreviousSummit = () => {
         <Col md={{ offset: 1, span: 10 }}>
           {" "}
           <Stack gap={5}>
-              <div>
-              <StaticImage src="../images/logoDS19.png"/>
-
-              </div>
+            <div>
+              <StaticImage src="../images/logoDS19.png" />
+            </div>
             <Stack gap={3}>
               <div className="text-header text-bold w-100">Speakers_</div>
               <div className="d-flex flex-row flex-wrap">
@@ -54,8 +54,7 @@ export const PreviousSummit = () => {
                 </Col>
               </Row>
               <div className="d-flex align-items-center justify-content-center">
-              <SecondaryButton>See all +</SecondaryButton>
-
+                <SecondaryButton>See all +</SecondaryButton>
               </div>
             </Stack>
           </Stack>
