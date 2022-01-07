@@ -49,9 +49,9 @@ const AgendaItem = ({ item }) => {
   )
 }
 
-export const Agenda = () => {
+export const Agenda = ({ agendaRef }) => {
   return (
-    <div className="bg-secondary cont-big">
+    <div className="bg-secondary cont-big" ref={agendaRef}>
       <div className="w-100">
         <div className="d-flex flex-row justify-content-between align-items-center">
           <div className="text-header text-bold">Agenda</div>
