@@ -1,0 +1,30 @@
+.lrmg {
+  margin-right: 8.33%;
+  margin-left: 8.33%;
+  .border-white {
+    border-color: #202459;
+  }
+}
+.contactContainer {
+  flex: 1;
+  // height: 315px;
+  background-color: #fafafa;
+  background-image: url("../images/ctaContainer2.png");
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  color: #202459 !important;
+  padding: 48px;
+}
+.w-60 {
+  width: 100%;
+  padding-right: 300px;
+}
+.darkBorder {
+  border-color: #202459 !important;
+}
+@media screen and (max-width: 812px) {
+  .w-60 {
+    padding-right: 100px;
+  }
+}
