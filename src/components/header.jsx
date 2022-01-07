@@ -27,14 +27,12 @@ export const DevHeader = ({ agendaRef, speakersRef }) => {
       >
         <Nav className="align-items-center">
           <Nav.Link
-            href="#features"
             className="text-white f-18 text-bold"
             onClick={() => scrollTo(agendaRef)}
           >
             <SecondaryButton>AGENDA</SecondaryButton>
           </Nav.Link>
           <Nav.Link
-            href="#pricing"
             className="text-white f-18 text-bold"
             onClick={() => scrollTo(speakersRef)}
           >
