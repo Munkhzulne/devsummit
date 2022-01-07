@@ -1,22 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
 $primary: #202459;
+// $spacer: 3
 $secondary: #282e74;
 $theme-colors: (
   "primary": #202459,
   "secondary": #282e74,
 );
-$font-sizes: 18, 32, 48, 80, 24;
-@each $size in $font-sizes {
-  .f-#{$size} {
-    font-size: #{$size}px !important;
-  }
-}
-.f {
+.text {
   &-bold {
     font-weight: bold;
   }
-}
-.text {
   &-huge {
     font-size: max(5vw, 60px) !important;
     line-height: max(5vw, 60px);
@@ -29,6 +22,15 @@ $font-sizes: 18, 32, 48, 80, 24;
   }
   &-18 {
     font-size: max(1.2vw, 18px) !important;
+  } 
+  &-16 {
+    font-size: max(1vw, 16px) !important;
+  } 
+  &-26 {
+    font-size: max(1.7vw, 26px) !important;
+  }
+  &-dark {
+    color: $primary;
   }
 }
 .main {
@@ -124,20 +126,6 @@ $font-sizes: 18, 32, 48, 80, 24;
     left: 41vw;
   }
 }
-.square {
-  transform: rotateY(45deg);
-  animation: rotateAnimation 1s linear infinite;
-}
-
-@keyframes rotateAnimation {
-  from {
-    transform: rotateY(45deg);
-  }
-  to {
-    transform: rotateY(225deg);
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .cont {
     padding: 7vw !important;
@@ -145,6 +133,54 @@ $font-sizes: 18, 32, 48, 80, 24;
     display: flex;
     justify-content: center;
   }
+}
+@media screen and (min-width: 1200px) {
+  .cont-big {
+    padding: 4vw !important;
+    padding-top: 4rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
+
+table {
+  border: none !important;
+}
+td {
+  border-bottom: none !important;
+  color: white;
+  padding: 0 !important;
+  font-weight: bold;
+}
+tr {
+
+  // height: 50px;
+  padding: 0 !important;
+}
+.view {
+  margin: auto;
+  color: white;
+}
+
+.wrapper {
+  position: relative;
+  overflow: auto;
+  // white-space: nowrap;
+}
+
+
+.first-col {
+  background-color: $secondary !important;
+  min-width: 200px;
+  width: 200px;
+  color: white;
+  left: 0px;
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  color: white;
+  height: 100px
 }
 
 @import "~bootstrap/scss/bootstrap";

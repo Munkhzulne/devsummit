@@ -11,6 +11,7 @@ import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
 import { ShortDetails } from "../components/short-detail"
 import { WhatIsSummit } from "../components/about-summit"
+import { Agenda } from "../components/agenda"
 const IndexPage = () => {
   return (
     <div className="main">
@@ -19,7 +20,7 @@ const IndexPage = () => {
         <Hero/>
         <ShortDetails/>
         <WhatIsSummit/>
-
+        <Agenda/>
       </Stack>
     </div>
   )
