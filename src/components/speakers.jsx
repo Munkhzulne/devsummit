@@ -15,7 +15,7 @@ const Profile = ({ profileImage, name, description }) => {
     </Card>
   )
 }
-export const Speakers = () => {
+export const Speakers = ({ speakersRef }) => {
   const [key, setKey] = useState("Women in Tech_")
   const titles = ["Women in Tech_", "Tech Talks_", "AMA_", "Workshops_"]
   const data = [
@@ -53,9 +53,9 @@ export const Speakers = () => {
     },
   ]
   return (
-    <div className="cont my-5 relative">
-      <div className="topCircle" />
-      <div className="bottomCircle" />
+    <div className="cont my-5 relative" ref={speakersRef}>
+      <div className="topCircle cc" />
+      <div className="bottomCircle cc" />
       <div className="col mx-8p onTop">
         <div className="justify-start wp100">
           <p className="text-header">+30 Speakers_</p>

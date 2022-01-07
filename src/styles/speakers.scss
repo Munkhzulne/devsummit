@@ -116,6 +116,9 @@
   position: relative;
 }
 @media only screen and (max-width: 768px) {
+  .cc {
+    display: none;
+  }
   .tabStyle {
     font-size: 16px;
     padding: 5px 8px;
@@ -123,7 +126,7 @@
   }
   .tabData {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .cardContainer {
     margin-right: 0;

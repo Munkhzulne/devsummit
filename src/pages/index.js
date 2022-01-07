@@ -15,16 +15,18 @@ import { Where } from "../components/where"
 import Speakers from "../components/speakers"
 import { Agenda } from "../components/agenda"
 const IndexPage = () => {
+  const agendaRef = React.useRef(null)
+  const speakersRef = React.useRef(null)
   return (
     <div className="main">
       <Stack gap={5}>
-        <DevHeader />
+        <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} />
         <Hero />
         <ShortDetails />
         <WhatIsSummit />
-        <Speakers />
+        <Speakers speakersRef={speakersRef} />
         <Where />
-        <Agenda/>
+        <Agenda agendaRef={agendaRef} />
       </Stack>
     </div>
   )
