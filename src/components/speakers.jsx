@@ -23,7 +23,7 @@ export const Speakers = () => {
       title: "Women in Tech_",
       persons: new Array(7).fill({
         profileImage: portrait,
-        name: "Bilguun-Erdene Erdene-Jargal",
+        name: "Erdene-Jargal",
         description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
       }),
     },
@@ -53,18 +53,18 @@ export const Speakers = () => {
     },
   ]
   return (
-    <div className="cont my-5 relative">
-      <div className="topCircle" />
-      <div className="bottomCircle" />
+    <div className="cont relative">
+      <div className="topCircle d-xs-none d-sm-none d-md-block" />
+      <div className="bottomCircle d-xs-none d-sm-none d-md-block" />
       <div className="col mx-8p onTop">
         <div className="justify-start wp100">
-          <p className="text-header">+30 Speakers_</p>
+          <p className="text-header text-bold">+30 Speakers_</p>
         </div>
         <Tabs
           id="controlled-tab-example"
           activeKey={key}
           onSelect={k => setKey(k)}
-          className="ml-0"
+          className="ml-0 "
         >
           {titles.map((title, index) => (
             <Tab eventKey={title} title={title} tabClassName="tabStyle">

@@ -15,25 +15,26 @@ $theme-colors: (
     line-height: max(5vw, 60px);
   }
   &-header {
-    font-size: max(3vw, 40px) !important;
+    font-size: max(2.8vw, 36px) !important;
   }
   &-20 {
-    font-size: max(1.5vw, 20px) !important;
+    font-size: max(1.3vw, 18px) !important;
   }
   &-18 {
-    font-size: max(1.2vw, 18px) !important;
-  } 
-  &-16 {
     font-size: max(1vw, 16px) !important;
   } 
+  &-16 {
+    font-size: max(0.8vw, 14px) !important;
+  } 
   &-26 {
-    font-size: max(1.7vw, 26px) !important;
+    font-size: max(1.5vw, 22px) !important;
+  }
+  &-14 {
+    font-size: max(0.5vw, 12px) !important;
+    line-height: max(calc(0.5vw + 5px), 14px) !important;;
   }
   &-dark {
     color: $primary;
-  }
-  &-16 {
-    font-size: max(1.2vw, 16px) !important;
   }
 }
 .main {

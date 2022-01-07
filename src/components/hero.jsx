@@ -12,7 +12,7 @@ export const Hero = () => {
   return (
     <div className="cont-big">
       <Row className="w-100">
-        <Col md={6}>
+        <Col md={{offset:1, span:5}}>
           <Stack gap={5} className="position-relative">
             <div className="circle-header">
 

@@ -17,13 +17,13 @@ import { Agenda } from "../components/agenda"
 const IndexPage = () => {
   return (
     <div className="main">
-      <Stack gap={5}>
+      <Stack gap={2}>
         <DevHeader />
         <Hero />
         <ShortDetails />
         <WhatIsSummit />
         <Speakers />
-        <Where />
+        {/* <Where /> */}
         <Agenda/>
       </Stack>
     </div>

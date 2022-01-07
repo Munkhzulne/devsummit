@@ -10,10 +10,10 @@ export const WhatIsSummit = () => {
       <div className="circle-about3 position-absolute"></div>
     
       <div className="cont my-5">
-        <Row className="my-5 mb-0">
+        <Row className="my-3 mb-0">
           <Col md={{ offset: 1, span: 4 }} className="text-header text-bold">What exactly is this?_
           </Col>
-          <Col md={{ offset: 1, span: 5 }}>
+          <Col md={{ offset: 0, span: 6 }}>
             <Stack gap={4} className="text-20">
               <div>
                 DevSummit is the biggest gathering of tech community in

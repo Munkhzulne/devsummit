@@ -36,14 +36,14 @@ const data = [
 
 const AgendaItem = ({ item }) => {
   return (
-    <div className="d-flex flex-row border border-white my-2 mx-2" style={{minWidth: "400px"}}>
-      <div className="align-items-center d-flex bg-white text-bold text-dark px-3 text-20">
+    <div className="d-flex flex-row border border-white my-2 mx-2" style={{whiteSpace: "nowrap"}}>
+      <div className="align-items-center d-flex bg-white text-bold text-dark px-2 text-16">
         {item.time}
       </div>
-      <div className="d-flex flex-column bg-primary p-2">
-        <span className="text-18 text-bold "> {item.name} </span>
-        <span className="text-16"> {item.position} </span>
-        <span className="text-16"> {item.topic} </span>
+      <div className="d-flex flex-column bg-primary p-2 pt-1 w-100">
+        <span className="text-16 text-bold "> {item.name} </span>
+        <span className="text-14"> {item.position} </span>
+        <span className="text-14"> {item.topic} </span>
       </div>
     </div>
   )
@@ -62,7 +62,7 @@ export const Agenda = () => {
             <table class="table">
               <tbody>
                 <tr>
-                  <td class="sticky-col first-col text-26 my-2">Tech Talks_</td>
+                  <td class="sticky-col first-col text-26 mb-1">Tech Talks_</td>
                   {data.map(item => (
                     <td>
                       <AgendaItem item={item} />
@@ -70,7 +70,7 @@ export const Agenda = () => {
                   ))}
                 </tr>
                 <tr>
-                  <td class="sticky-col first-col text-26 my-2">
+                  <td class="sticky-col first-col text-26 mb-1">
                     <div>Women Techmakers_</div>
                   </td>
                   {data.map(item => (
@@ -80,7 +80,7 @@ export const Agenda = () => {
                   ))}
                 </tr>
                 <tr>
-                  <td class="sticky-col first-col text-26 my-2">Workshops_</td>
+                  <td class="sticky-col first-col text-26 mb-1">Workshops_</td>
                   {data.map(item => (
                     <td>
                       <AgendaItem item={item} />
@@ -88,7 +88,7 @@ export const Agenda = () => {
                   ))}
                 </tr>
                 <tr>
-                  <td class="sticky-col first-col text-26 my-2">AMA_</td>
+                  <td class="sticky-col first-col text-26 mb-1">AMA_</td>
                   {data.map(item => (
                     <td>
                       <AgendaItem item={item} />
