@@ -1,12 +1,7 @@
 import * as React from "react"
 import { DevHeader } from "../components/header"
-import { Container, Row, Col, Stack } from "react-bootstrap"
+import { Stack } from "react-bootstrap"
 import "../styles/index.scss"
-import { PrimaryButton, SecondaryButton } from "../components/buttons"
-import { StaticImage } from "gatsby-plugin-image"
-import Parallax from "parallax-js"
-import a from "../images/man.svg"
-import { useEffect } from "react"
 import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
 import { ShortDetails } from "../components/short-detail"
@@ -21,20 +16,24 @@ const IndexPage = () => {
   const speakersRef = React.useRef(null)
   return (
     <div className="main">
-      <Stack gap={5}>
-        <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} />
-        <Hero />
-        <ShortDetails />
-        <WhatIsSummit />
-        <Speakers speakersRef={speakersRef} />
-        <div>
-          <Agenda agendaRef={agendaRef} />
-          <Sponsors />
-        </div>
-        <ContactUs />
-        <Where />
-        <PreviousSummit />
-      </Stack>
+      <div className="bg">
+        <Stack gap={5}>
+          <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} />
+          <Hero />
+          <ShortDetails />
+          <WhatIsSummit />
+          <Speakers speakersRef={speakersRef} />
+          <div>
+            <Agenda agendaRef={agendaRef} />
+            <Sponsors />
+          </div>
+          <div className="contactUsWhereWrapper pt-5">
+            <ContactUs />
+            <Where />
+          </div>
+          <PreviousSummit />
+        </Stack>
+      </div>
     </div>
   )
 }

@@ -45,6 +45,11 @@ $theme-colors: (
   font-family: "Jura", sans-serif;
   color: white !important;
 }
+.bg {
+  background: url("../images/blurEllipses.svg");
+  background-blend-mode: multiply, normal;
+  background-size: cover;
+}
 .p-btn {
   background: linear-gradient(90deg, #282e74 0%, #57b9a3 122.67%);
   border: none;
@@ -57,9 +62,6 @@ $theme-colors: (
   &-b {
     transition: 0.5s;
     border: 1px solid white;
-    // &:hover {
-    //   border: none !important
-    // }
   }
 }
 .s-btn {
@@ -232,7 +234,25 @@ tr {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
-
+.zIndex3 {
+  z-index: 3;
+}
+.contactUsWhereWrapper {
+  // background: url("../images/whrcontactbg.svg") no-repeat center center;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  width: 100%;
+  position: relative;
+  .contactUsWhereBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex: 1;
+    z-index: 0;
+  }
+}
 @keyframes letskeepit {
   from {
     transform: translateZ(0);
