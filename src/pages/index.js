@@ -14,6 +14,7 @@ import { WhatIsSummit } from "../components/about-summit"
 import { Where } from "../components/where"
 import Speakers from "../components/speakers"
 import { Agenda } from "../components/agenda"
+import { PreviousSummit } from "../components/pre-summit"
 const IndexPage = () => {
   const agendaRef = React.useRef(null)
   const speakersRef = React.useRef(null)
@@ -26,11 +27,11 @@ const IndexPage = () => {
         <WhatIsSummit />
         <Speakers speakersRef={speakersRef} />
         <div>
-        <Agenda agendaRef={agendaRef} />
-        <Sponsors/>
-
+          <Agenda agendaRef={agendaRef} />
+          <Sponsors />
         </div>
         <Where />
+        <PreviousSummit/>
       </Stack>
     </div>
   )

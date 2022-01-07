@@ -125,7 +125,7 @@ $theme-colors: (
     height: 4vw;
     background-size: contain;
     left: 5vw;
-    top: 31vw;
+    top: 18vw;
   }
   &-about2 {
     background-image: url("../images/cube.svg");
@@ -141,14 +141,15 @@ $theme-colors: (
     width: 5vw;
     height: 4vw;
     background-size: contain;
-    bottom: 3vw;
+    bottom: -2vw;
     left: 41vw;
   }
 }
 @media screen and (min-width: 1200px) {
   .cont {
     padding: 7vw !important;
-    padding-top: 4rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
     display: flex;
     justify-content: center;
   }
@@ -192,7 +193,7 @@ tr {
 .first-col {
   background-color: $secondary !important;
   min-width: 150px;
-  width: 150px;
+  max-width: 190px;
   color: white;
   left: 0px;
   display: inline-block;
@@ -223,7 +224,9 @@ tr {
     animation: letskeepit 6s linear infinite;
   }
 }
-
+.pre-summit {
+  
+}
 
 @keyframes letskeepit {
   from {

@@ -30,7 +30,7 @@ export const Sponsors = () => {
             >
               <b>GET YOUR TICKET NOW * </b>JANUARY 22 *
             </div>
-            
+
             <div
               className="animation-title text-26  "
               style={{ whiteSpace: "nowrap" }}
@@ -41,9 +41,11 @@ export const Sponsors = () => {
         </div>
       </div>
       <div className="bg-white cont">
-          <div className="text-bold text-header text-dark justify-content-start d-flex w-100" >
+        <Row className="w-100"> 
+          <Col sm={{ offset: 1, span: 11 }} className="text-bold text-header text-dark justify-content-start d-flex w-100">
               Partners_
-          </div>
+          </Col>
+        </Row>
       </div>
     </div>
   )
