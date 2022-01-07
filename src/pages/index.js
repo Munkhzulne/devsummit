@@ -28,6 +28,7 @@ const IndexPage = () => {
         <Speakers speakersRef={speakersRef} />
         <Agenda agendaRef={agendaRef} />
         <ContactUs />
+        <Sponsors />
         <Where />
       </Stack>
     </div>
