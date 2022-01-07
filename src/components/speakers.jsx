@@ -15,7 +15,7 @@ const Profile = ({ profileImage, name, description }) => {
     </Card>
   )
 }
-export const Speakers = () => {
+export const Speakers = ({ speakersRef }) => {
   const [key, setKey] = useState("Women in Tech_")
   const titles = ["Women in Tech_", "Tech Talks_", "AMA_", "Workshops_"]
   const data = [
@@ -53,7 +53,7 @@ export const Speakers = () => {
     },
   ]
   return (
-    <div className="cont my-5 relative">
+    <div className="cont my-5 relative" ref={speakersRef}>
       <div className="topCircle" />
       <div className="bottomCircle" />
       <div className="col mx-8p onTop">

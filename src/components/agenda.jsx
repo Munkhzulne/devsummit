@@ -36,7 +36,10 @@ const data = [
 
 const AgendaItem = ({ item }) => {
   return (
-    <div className="d-flex flex-row border border-white my-2 mx-2" style={{minWidth: "400px"}}>
+    <div
+      className="d-flex flex-row border border-white my-2 mx-2"
+      style={{ minWidth: "400px" }}
+    >
       <div className="align-items-center d-flex bg-white text-bold text-dark px-3 text-20">
         {item.time}
       </div>
@@ -49,9 +52,9 @@ const AgendaItem = ({ item }) => {
   )
 }
 
-export const Agenda = () => {
+export const Agenda = ({ agendaRef }) => {
   return (
-    <div className="bg-secondary cont-big">
+    <div className="bg-secondary cont-big" ref={agendaRef}>
       <div className="w-100">
         <div className="d-flex flex-row justify-content-between align-items-center">
           <div className="text-header text-bold">Agenda</div>
