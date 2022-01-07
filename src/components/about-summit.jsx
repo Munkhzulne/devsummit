@@ -9,7 +9,7 @@ export const WhatIsSummit = () => {
       <div className="circle-about2 position-absolute"></div>
       <div className="circle-about3 position-absolute"></div>
     
-      <div className="cont my-5">
+      <div className="cont my-3">
         <Row className="my-3 mb-0">
           <Col md={{ offset: 1, span: 4 }} className="text-header text-bold">What exactly is this?_
           </Col>

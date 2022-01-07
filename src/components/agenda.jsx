@@ -51,7 +51,7 @@ const AgendaItem = ({ item }) => {
 
 export const Agenda = ({ agendaRef }) => {
   return (
-    <div className="bg-secondary cont-big" ref={agendaRef}>
+    <div className="bg-secondary cont-big mt-1" ref={agendaRef}>
       <div className="w-100">
         <div className="d-flex flex-row justify-content-between align-items-center">
           <div className="text-header text-bold">Agenda</div>
@@ -96,7 +96,7 @@ export const Agenda = ({ agendaRef }) => {
                   ))}
                 </tr>
                 <tr>
-                  <td class="sticky-col first-col text-26 my-2">
+                  <td class="sticky-col first-col text-26 mb-1">
                     Panel Discussions_
                   </td>
                   {data.map(item => (

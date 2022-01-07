@@ -53,7 +53,7 @@ export const Speakers = ({ speakersRef }) => {
     },
   ]
   return (
-    <div className="cont my-5 relative" ref={speakersRef}>
+    <div className="cont relative" ref={speakersRef}>
       <div className="topCircle cc" />
       <div className="bottomCircle cc" />
       <div className="col mx-8p onTop">

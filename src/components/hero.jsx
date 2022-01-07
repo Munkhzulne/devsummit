@@ -34,7 +34,7 @@ export const Hero = () => {
             </div>
           </Stack>
         </Col>
-        <Col xs={12} md="6" className="d-flex align-items-center my-5">
+        <Col xs={12} md="6" className="d-flex align-items-center my-5 mb-1">
           <div>
             <div className="position-relative">
               <div className="circle-man1"></div>

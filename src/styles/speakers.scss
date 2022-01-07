@@ -39,8 +39,8 @@
   z-index: 2;
 }
 .cardImage {
-  width: 236px;
-  height: 254px;
+  width: 180px;
+  height: 214px;
   border-radius: 0;
   margin-bottom: 8px !important;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -48,14 +48,14 @@
   transition: all 0.2s;
 }
 .cardContainer {
-  width: 236px !important;
+  width: 200px !important;
   padding: 0;
   border-radius: 0;
 }
 .card {
   background-color: transparent;
   border: 0;
-  margin-right: 26px;
+  margin-right: 16px;
   margin-bottom: 74px;
 }
 .tab-content {
