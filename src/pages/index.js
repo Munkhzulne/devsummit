@@ -11,15 +11,19 @@ import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
 import { ShortDetails } from "../components/short-detail"
 import { WhatIsSummit } from "../components/about-summit"
+import { Where } from "../components/where"
+import Speakers from "../components/speakers"
 import { Agenda } from "../components/agenda"
 const IndexPage = () => {
   return (
     <div className="main">
       <Stack gap={5}>
-      <DevHeader />
-        <Hero/>
-        <ShortDetails/>
-        <WhatIsSummit/>
+        <DevHeader />
+        <Hero />
+        <ShortDetails />
+        <WhatIsSummit />
+        <Speakers />
+        <Where />
         <Agenda/>
       </Stack>
     </div>

@@ -32,6 +32,9 @@ $theme-colors: (
   &-dark {
     color: $primary;
   }
+  &-16 {
+    font-size: max(1.2vw, 16px) !important;
+  }
 }
 .main {
   margin: 0;
@@ -79,8 +82,12 @@ $theme-colors: (
     height: 14vw;
     left: -60px;
     top: 15rem;
-    
-    background: radial-gradient(613.25% 235.35% at 42.73% 100%, #3A676B 0%, #202459 100%);
+
+    background: radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #3a676b 0%,
+      #202459 100%
+    );
     opacity: 0.8;
     filter: blur(4vw);
   }
@@ -106,7 +113,6 @@ $theme-colors: (
     background-size: contain;
     left: 5vw;
     top: 31vw;
-
   }
   &-about2 {
     background-image: url("../images/cube.svg");
