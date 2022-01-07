@@ -2,11 +2,6 @@ import * as React from "react"
 import { DevHeader } from "../components/header"
 import { Container, Row, Col, Stack } from "react-bootstrap"
 import "../styles/index.scss"
-import { PrimaryButton, SecondaryButton } from "../components/buttons"
-import { StaticImage } from "gatsby-plugin-image"
-import Parallax from "parallax-js"
-import a from "../images/man.svg"
-import { useEffect } from "react"
 import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
 import { ShortDetails } from "../components/short-detail"
@@ -16,6 +11,7 @@ import Speakers from "../components/speakers"
 import { Agenda } from "../components/agenda"
 import { PreviousSummit } from "../components/pre-summit"
 import ContactUs from "../components/contact-us"
+import { SeeYou } from "../components/see-you"
 const IndexPage = () => {
   const agendaRef = React.useRef(null)
   const speakersRef = React.useRef(null)
@@ -33,7 +29,8 @@ const IndexPage = () => {
         </div>
         <ContactUs />
         <Where />
-        <PreviousSummit/>
+        <PreviousSummit />
+        <SeeYou/>
       </Stack>
     </div>
   )

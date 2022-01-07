@@ -4,7 +4,7 @@ import Tabs from "react-bootstrap/Tabs"
 import Card from "react-bootstrap/Card"
 import portrait from "../images/portrait2.png"
 import "../styles/speakers.scss"
-const Profile = ({ profileImage, name, description }) => {
+export const Profile = ({ profileImage, name, description }) => {
   return (
     <Card className="cardContainer">
       <Card.Img variant="top" src={profileImage} className="cardImage" />
