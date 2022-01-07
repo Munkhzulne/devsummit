@@ -22,16 +22,16 @@ $theme-colors: (
   }
   &-18 {
     font-size: max(1vw, 16px) !important;
-  } 
+  }
   &-16 {
     font-size: max(0.8vw, 14px) !important;
-  } 
+  }
   &-26 {
     font-size: max(1.5vw, 22px) !important;
   }
   &-14 {
     font-size: max(0.5vw, 12px) !important;
-    line-height: max(calc(0.5vw + 5px), 14px) !important;;
+    line-height: max(calc(0.5vw + 5px), 14px) !important;
   }
   &-dark {
     color: $primary;
@@ -54,12 +54,12 @@ $theme-colors: (
     transform: translate(0px, 0px);
   }
 
-  &-b  {
+  &-b {
     transition: 0.5s;
-    border:  1px solid white;
-    &:hover {
-      border: none !important
-    }
+    border: 1px solid white;
+    // &:hover {
+    //   border: none !important
+    // }
   }
 }
 .s-btn {
@@ -160,7 +160,7 @@ $theme-colors: (
     padding-top: 4rem !important;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
   }
 }
 
@@ -174,7 +174,6 @@ td {
   font-weight: bold;
 }
 tr {
-
   // height: 50px;
   padding: 0 !important;
 }
@@ -189,7 +188,6 @@ tr {
   // white-space: nowrap;
 }
 
-
 .first-col {
   background-color: $secondary !important;
   min-width: 150px;
@@ -200,10 +198,14 @@ tr {
   position: -webkit-sticky;
   position: sticky;
   color: white;
-  height: 100px
+  height: 100px;
 }
 .getTicket {
-  background: linear-gradient(90deg, #282E74 -14.33%, #57B9A3 122.67%) !important;
+  background: linear-gradient(
+    90deg,
+    #282e74 -14.33%,
+    #57b9a3 122.67%
+  ) !important;
 }
 
 .animation {

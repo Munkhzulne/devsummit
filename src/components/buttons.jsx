@@ -1,8 +1,8 @@
 import React from "react"
 
-export const PrimaryButton = ({ children }) => {
+export const PrimaryButton = ({ children, borderStyle = "border-white" }) => {
   return (
-    <div className="p-btn-b" style={{ width: "fit-content" }}>
+    <div className={`p-btn-b ${borderStyle}`} style={{ width: "fit-content" }}>
       <button className="p-btn text-white px-4 py-1 text-18 text-bold">
         {children}
       </button>
@@ -10,7 +10,7 @@ export const PrimaryButton = ({ children }) => {
   )
 }
 
-export const SecondaryButton = ({children}) => {
+export const SecondaryButton = ({ children }) => {
   return (
     <div>
       <button className="s-btn text-white px-4 py-1 text-18 text-bold">
