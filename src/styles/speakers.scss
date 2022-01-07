@@ -83,8 +83,8 @@
   filter: grayscale(0%);
 }
 .topCircle {
-  width: 446px;
-  height: 446px;
+  width: 19vw;
+  height: 19vw;
   background: radial-gradient(
     613.25% 235.35% at 42.73% 100%,
     #93d2f4 0%,
@@ -94,13 +94,14 @@
   opacity: 0.8;
   filter: blur(151.938px);
   left: 0;
+  z-index: 0;
 }
 .onTop {
-  z-index: 2;
+  z-index: 100;
 }
 .bottomCircle {
-  width: 304px;
-  height: 304px;
+  width: 18vw;
+  height: 18vw;
   background: radial-gradient(
     613.25% 235.35% at 42.73% 100%,
     #6ed270 0%,
@@ -111,9 +112,13 @@
   position: absolute;
   right: 200px;
   top: 800px;
+  z-index: 0;
 }
 .relative {
   position: relative;
+}
+.cc {
+  z-index: 0;
 }
 @media only screen and (max-width: 768px) {
   .cc {

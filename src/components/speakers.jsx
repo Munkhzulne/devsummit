@@ -64,11 +64,11 @@ export const Speakers = ({ speakersRef }) => {
           id="controlled-tab-example"
           activeKey={key}
           onSelect={k => setKey(k)}
-          className="ml-0 "
+          className="ml-0 onTop"
         >
           {titles.map((title, index) => (
             <Tab eventKey={title} title={title} tabClassName="tabStyle">
-              <div className="row mx0 mt56 tabData" key={index}>
+              <div className="row mx0 mt56 tabData onTop" key={index}>
                 {data
                   .find(dt => dt.title == title)
                   .persons.map((person, ind) => (
