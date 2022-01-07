@@ -10,8 +10,8 @@ export const Hero = () => {
     var parallaxInstance = new Parallax(scene)
   })
   return (
-    <div className="cont">
-      <Row>
+    <div className="cont-big">
+      <Row className="w-100">
         <Col md={6}>
           <Stack gap={5} className="position-relative">
             <div className="circle-header">
