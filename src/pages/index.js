@@ -25,7 +25,11 @@ const IndexPage = () => {
         <ShortDetails />
         <WhatIsSummit />
         <Speakers speakersRef={speakersRef} />
+        <div>
         <Agenda agendaRef={agendaRef} />
+        <Sponsors/>
+
+        </div>
         <Where />
       </Stack>
     </div>

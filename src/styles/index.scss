@@ -53,10 +53,22 @@ $theme-colors: (
   &:hover {
     transform: translate(0px, 0px);
   }
+
+  &-b  {
+    transition: 0.5s;
+    border:  1px solid white;
+    &:hover {
+      border: none !important
+    }
+  }
 }
 .s-btn {
   border: none;
   background-color: transparent;
+  transition: 0.5s;
+  &:hover {
+    opacity: 50%;
+  }
 }
 .white-shadow {
   box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.25);
@@ -189,5 +201,36 @@ tr {
   color: white;
   height: 100px
 }
+.getTicket {
+  background: linear-gradient(90deg, #282E74 -14.33%, #57B9A3 122.67%) !important;
+}
 
+.animation {
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  &-con {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  &-con1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  &-title {
+    animation: letskeepit 6s linear infinite;
+  }
+}
+
+
+@keyframes letskeepit {
+  from {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
 @import "~bootstrap/scss/bootstrap";

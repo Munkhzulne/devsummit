@@ -1,6 +1,6 @@
 import React from "react"
 import { Navbar, Container, Nav } from "react-bootstrap"
-import { PrimaryButton } from "./buttons"
+import { PrimaryButton, SecondaryButton } from "./buttons"
 import { Logo } from "./logo"
 
 export const DevHeader = ({ agendaRef, speakersRef }) => {
@@ -31,14 +31,14 @@ export const DevHeader = ({ agendaRef, speakersRef }) => {
             className="text-white f-18 text-bold"
             onClick={() => scrollTo(agendaRef)}
           >
-            AGENDA
+            <SecondaryButton>AGENDA</SecondaryButton>
           </Nav.Link>
           <Nav.Link
             href="#pricing"
             className="text-white f-18 text-bold"
             onClick={() => scrollTo(speakersRef)}
           >
-            SPEAKERS
+            <SecondaryButton>SPEAKERS</SecondaryButton>
           </Nav.Link>
         </Nav>
         <Navbar.Brand className="d-lg-block d-none py-3">
@@ -46,7 +46,10 @@ export const DevHeader = ({ agendaRef, speakersRef }) => {
         </Navbar.Brand>
         <Nav className="align-items-center">
           <Nav.Link href="#deets" className="text-white f-18 text-bold">
+            <SecondaryButton>
             Contact Us
+
+            </SecondaryButton>
           </Nav.Link>
           <Nav.Link>
             <PrimaryButton>Buy Ticket</PrimaryButton>
