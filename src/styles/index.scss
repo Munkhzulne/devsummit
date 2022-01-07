@@ -255,6 +255,10 @@ tr {
   background-repeat: no-repeat;
   background-image: url("../images/pre-bg.png");
 }
+.row-margin-none {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
 
 @keyframes letskeepit {
   from {

@@ -41,9 +41,12 @@ export const Sponsors = () => {
         </div>
       </div>
       <div className="bg-white cont">
-        <Row className="w-100"> 
-          <Col sm={{ offset: 1, span: 11 }} className="text-bold text-header text-dark justify-content-start d-flex w-100">
-              Partners_
+        <Row className="w-100">
+          <Col
+            sm={{ offset: 1, span: 11 }}
+            className="text-bold text-header text-dark justify-content-start d-flex"
+          >
+            Partners_
           </Col>
         </Row>
       </div>
