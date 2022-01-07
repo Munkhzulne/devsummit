@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+$primary: #202459;
+$secondary: #282e74;
+$theme-colors: (
+  "primary": #202459,
+  "secondary": #282e74,
+);
+$font-sizes: 18, 32, 48, 80, 24;
+@each $size in $font-sizes {
+  .f-#{$size} {
+    font-size: #{$size}px !important;
+  }
+}
+.f {
+  &-bold {
+    font-weight: bold;
+  }
+}
+.text {
+  &-huge {
+    font-size: max(5vw, 60px) !important;
+    line-height: max(5vw, 60px);
+  }
+  &-header {
+    font-size: max(3vw, 40px) !important;
+  }
+  &-20 {
+    font-size: max(1.5vw, 20px) !important;
+  }
+  &-18 {
+    font-size: max(1.2vw, 18px) !important;
+  }
+}
+.main {
+  margin: 0;
+  background-color: $primary;
+  background: url("../images/repeated-square.png"), #202459;
+  background-blend-mode: multiply, normal;
+  font-family: "Jura", sans-serif;
+  color: white !important;
+}
+.p-btn {
+  background: linear-gradient(90deg, #282e74 0%, #57b9a3 122.67%);
+  border: none;
+  transform: translate(-4px, -4px);
+  transition: 0.5s;
+  &:hover {
+    transform: translate(0px, 0px);
+  }
+}
+.s-btn {
+  border: none;
+  background-color: transparent;
+}
+.white-shadow {
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.25);
+}
+.circle {
+  &-man1 {
+    position: absolute;
+    width: 17vw;
+    height: 17vw;
+    right: 20px;
+    top: -20px;
+
+    background: radial-gradient(
+      397.97% 418.32% at 89.13% 25.38%,
+      #6ed270 0%,
+      #202459 100%
+    );
+    opacity: 0.8;
+    filter: blur(5vw);
+  }
+  &-man2 {
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    left: -60px;
+    top: 15rem;
+    
+    background: radial-gradient(613.25% 235.35% at 42.73% 100%, #3A676B 0%, #202459 100%);
+    opacity: 0.8;
+    filter: blur(4vw);
+  }
+  &-header {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: -60px;
+    top: -60px;
+
+    background: radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #93d2f4 0%,
+      #202459 100%
+    );
+    opacity: 0.8;
+    filter: blur(110px);
+  }
+  &-about1 {
+    background-image: url("../images/circle.svg");
+    width: 4vw;
+    height: 4vw;
+    background-size: contain;
+    left: 5vw;
+    top: 31vw;
+
+  }
+  &-about2 {
+    background-image: url("../images/cube.svg");
+    width: 6vw;
+    height: 6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 6vw;
+    top: 140px;
+  }
+  &-about3 {
+    background-image: url("../images/pyramid.svg");
+    width: 5vw;
+    height: 4vw;
+    background-size: contain;
+    bottom: 3vw;
+    left: 41vw;
+  }
+}
+.square {
+  transform: rotateY(45deg);
+  animation: rotateAnimation 1s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotateY(45deg);
+  }
+  to {
+    transform: rotateY(225deg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cont {
+    padding: 7vw !important;
+    padding-top: 4rem !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";

@@ -1,31 +1,28 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { DevHeader } from "../components/header"
+import { Container, Row, Col, Stack } from "react-bootstrap"
+import "../styles/index.scss"
+import { PrimaryButton, SecondaryButton } from "../components/buttons"
 import { StaticImage } from "gatsby-plugin-image"
+import Parallax from "parallax-js"
+import a from "../images/man.svg"
+import { useEffect } from "react"
+import { Hero } from "../components/hero"
+import { Sponsors } from "../components/sponsors"
+import { ShortDetails } from "../components/short-detail"
+import { WhatIsSummit } from "../components/about-summit"
+const IndexPage = () => {
+  return (
+    <div className="main">
+      <Stack gap={5}>
+      <DevHeader />
+        <Hero/>
+        <ShortDetails/>
+        <WhatIsSummit/>
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
-  </Layout>
-)
+      </Stack>
+    </div>
+  )
+}
 
 export default IndexPage
