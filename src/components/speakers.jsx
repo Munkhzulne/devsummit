@@ -56,7 +56,7 @@ export const Speakers = () => {
     <div className="cont my-5 relative">
       <div className="topCircle" />
       <div className="bottomCircle" />
-      <div className="col mx-8p">
+      <div className="col mx-8p onTop">
         <div className="justify-start wp100">
           <p className="text-header">+30 Speakers_</p>
         </div>

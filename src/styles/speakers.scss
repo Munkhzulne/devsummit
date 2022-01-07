@@ -23,6 +23,7 @@
   margin-right: 24px;
   color: #ffffff;
   font-weight: bold;
+  z-index: 2 !important;
 }
 .tabStyle:hover {
   background-color: rgba($color: #ffffff, $alpha: 0.2);
@@ -35,6 +36,7 @@
 }
 .nav-tabs {
   border: none;
+  z-index: 2;
 }
 .cardImage {
   width: 236px;
@@ -92,6 +94,9 @@
   opacity: 0.8;
   filter: blur(151.938px);
   left: 0;
+}
+.onTop {
+  z-index: 2;
 }
 .bottomCircle {
   width: 304px;
