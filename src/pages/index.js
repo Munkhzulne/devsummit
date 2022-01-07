@@ -33,7 +33,7 @@ const IndexPage = () => {
         </div>
         <ContactUs />
         <Where />
-        <PreviousSummit/>
+        <PreviousSummit />
       </Stack>
     </div>
   )

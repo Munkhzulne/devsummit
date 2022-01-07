@@ -28,3 +28,11 @@
     padding-right: 100px;
   }
 }
+@media screen and (max-width: 600px) {
+  .w-60 {
+    padding-right: 0px;
+  }
+  .contactContainer {
+    padding: 24px;
+  }
+}
