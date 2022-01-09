@@ -1,0 +1,21 @@
+.eventItem {
+  background-color: #202459;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  // margin: 1px;
+  .time {
+    background-color: white;
+    color: #202459;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    padding-left: 16px;
+  }
+}

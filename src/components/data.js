@@ -1,14 +1,15 @@
-export const speaker = [ {
+export const speaker = [
+  {
     title: "Women in Tech_",
-    persons:[]
+    persons: [],
   },
   {
     title: "AMA_",
-    persons: []
+    persons: [],
   },
   {
     title: "Workshops_",
-    persons:[]
+    persons: [],
   },
   {
     title: "Tech Talks_",
@@ -240,3 +241,225 @@ export const speaker = [ {
     ],
   },
 ]
+export const events = {
+  "Tech Talks_": [
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "8:00",
+      endTime: "9:30",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "10:00",
+      endTime: "11:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "11:00",
+      endTime: "12:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "13:00",
+      endTime: "14:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "14:30",
+      endTime: "15:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "16:00",
+      endTime: "17:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "17:20",
+      endTime: "17:40",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "18:00",
+      endTime: "20: 00",
+    },
+  ],
+  "Women Techmakers_": [
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "10:00",
+      endTime: "11:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "11:00",
+      endTime: "12:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "13:00",
+      endTime: "14:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "14:30",
+      endTime: "17:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "17:20",
+      endTime: "17:40",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "18:00",
+      endTime: "20: 00",
+    },
+  ],
+  Workshops_: [
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "8:00",
+      endTime: "9:30",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "10:00",
+      endTime: "11:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "11:00",
+      endTime: "14:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "14:30",
+      endTime: "15:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "16:00",
+      endTime: "17:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "17:20",
+      endTime: "17:40",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "18:00",
+      endTime: "20: 00",
+    },
+  ],
+  AMA_: [
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "10:00",
+      endTime: "11:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "11:00",
+      endTime: "12:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "13:00",
+      endTime: "14:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "14:30",
+      endTime: "15:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "16:00",
+      endTime: "17:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "17:20",
+      endTime: "17:40",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "18:00",
+      endTime: "20: 00",
+    },
+  ],
+  "Panel Discussions_": [
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "8:00",
+      endTime: "9:30",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "10:00",
+      endTime: "11:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "11:00",
+      endTime: "12:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "13:00",
+      endTime: "14:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "14:30",
+      endTime: "15:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "16:00",
+      endTime: "18:00",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
+      startTime: "18:00",
+      endTime: "20: 00",
+    },
+  ],
+}
