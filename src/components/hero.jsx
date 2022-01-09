@@ -4,6 +4,7 @@ import { PrimaryButton, SecondaryButton } from "../components/buttons"
 import Parallax from "parallax-js"
 import a from "../images/man.svg"
 import { useEffect } from "react"
+import { StaticImage } from "gatsby-plugin-image"
 export const Hero = () => {
   useEffect(() => {
     var scene = document.getElementById("scene")
@@ -42,7 +43,7 @@ export const Hero = () => {
             </div>
             <div id="scene">
               <div data-depth="0.3" className="position-relative">
-                <img src={a} alt="fill murray" style={{ minWidth: "100%" }} />
+                <StaticImage src="../images/man.svg"  style={{ minWidth: "100%" }} />
               </div>
             </div>
           </div>

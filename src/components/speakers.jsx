@@ -3,18 +3,25 @@ import Tab from "react-bootstrap/Tab"
 import Tabs from "react-bootstrap/Tabs"
 import Card from "react-bootstrap/Card"
 import portrait from "../images/portrait2.png"
-import {Col} from 'react-bootstrap'
+import { Col, Image } from "react-bootstrap"
 import "../styles/speakers.scss"
-export const Profile = ({ profileImage, firstname, lastName, description }) => {
+import { speaker } from "./data"
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
+export const Profile = ({ picture, firstName, lastName, role, work }) => {
+  console.log(picture)
   return (
     <Card className="cardContainer w-100">
-      <Card.Img variant="top" src={profileImage} className="cardImage w-100 h-100" />
+      <Card.Img
+        variant="top"
+        src={picture && require(`../images/tech_talk/${picture}.png`).default}
+        className="cardImage w-100 h-100"
+      />
       <Card.Body>
         <Card.Title className="text-20">
-          <div>{firstname}</div>
+          <div>{firstName}</div>
           <div>{lastName}</div>
         </Card.Title>
-        <Card.Text className="cardDesc text-18">{description}</Card.Text>
+        <Card.Text className="cardDesc text-18">{`${role} @ ${work}`}</Card.Text>
       </Card.Body>
     </Card>
   )
@@ -22,12 +29,13 @@ export const Profile = ({ profileImage, firstname, lastName, description }) => {
 export const Speakers = ({ speakersRef }) => {
   const [key, setKey] = useState("Women in Tech_")
   const titles = ["Women in Tech_", "Tech Talks_", "AMA_", "Workshops_"]
-  const data = [
+  const data1 = [
     {
       title: "Women in Tech_",
       persons: new Array(7).fill({
         profileImage: portrait,
-        lastName: "Boldbaatar",firstname: "Munkhzul",
+        lastName: "Boldbaatar",
+        firstName: "Munkhzul",
         description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
       }),
     },
@@ -35,7 +43,8 @@ export const Speakers = ({ speakersRef }) => {
       title: "Tech Talks_",
       persons: new Array(8).fill({
         profileImage: portrait,
-        lastName: "Bilguun-Erdene",firstname: "Erdene-Jargal",
+        lastName: "Bilguun-Erdene",
+        firstName: "Erdene-Jargal",
         description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
       }),
     },
@@ -43,7 +52,8 @@ export const Speakers = ({ speakersRef }) => {
       title: "AMA_",
       persons: new Array(9).fill({
         profileImage: portrait,
-        lastName: "Bilguun-Erdene",firstname: "Erdene-Jargal",
+        lastName: "Bilguun-Erdene",
+        firstName: "Erdene-Jargal",
         description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
       }),
     },
@@ -51,7 +61,8 @@ export const Speakers = ({ speakersRef }) => {
       title: "Workshops_",
       persons: new Array(10).fill({
         profileImage: portrait,
-        lastName: "Bilguun-Erdene",firstname: "Erdene-Jargal",
+        lastName: "Bilguun-Erdene",
+        firstName: "Erdene-Jargal",
         description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
       }),
     },
@@ -73,14 +84,16 @@ export const Speakers = ({ speakersRef }) => {
           {titles.map((title, index) => (
             <Tab eventKey={title} title={title} tabClassName="tabStyle text-20">
               <div className="row mx0 mt56 tabData onTop" key={index}>
-                {data
+                {speaker
                   .find(dt => dt.title == title)
                   .persons.map((person, ind) => (
-                    <Col  sm="6"
-                    md="3"
-                    xs="12"
-                    className="justify-content-center d-flex">
-                    <Profile {...person} key={index * 4 + ind} />
+                    <Col
+                      sm="6"
+                      md="3"
+                      xs="12"
+                      className="justify-content-center d-flex"
+                    >
+                      <Profile {...person} key={index * 4 + ind} />
                     </Col>
                   ))}
               </div>
