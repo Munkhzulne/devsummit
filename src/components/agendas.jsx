@@ -14,10 +14,10 @@ export const Agendas = ({ agendaRef }) => {
   }
   return (
     <div className="bg-secondary big-cont mt-1 pt-5 pb-5" ref={agendaRef}>
-      <div className="w-100 mx-8p flex-row">
+      <div className="w-100 mx-8p flex-row agendaContainer">
         {headers.map((header, index) => {
           return (
-            <div className="flex-column" style={{ width: "16.66%" }}>
+            <div className="flex-column agendasCol">
               {events[header].map((event, index2) => {
                 const hugatsaa = differenceBetweenTime(
                   event.startTime,
