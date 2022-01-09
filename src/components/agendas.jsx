@@ -13,7 +13,7 @@ export const Agendas = ({ agendaRef }) => {
     return time2InMinutes - time1InMinutes
   }
   return (
-    <div className="bg-secondary big-cont mt-1" ref={agendaRef}>
+    <div className="bg-secondary big-cont mt-1 pt-5 pb-5" ref={agendaRef}>
       <div className="w-100 mx-8p flex-row">
         {headers.map((header, index) => {
           return (
@@ -30,7 +30,7 @@ export const Agendas = ({ agendaRef }) => {
                   )
                   return (
                     <>
-                      <div>{header}</div>
+                      <div className="text-20 mb-4">{header}</div>
                       <div style={{ height: howMuchBefore + "px" }} />
                       <div
                         className="eventItem"
