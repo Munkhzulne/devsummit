@@ -1,6 +1,6 @@
 import * as React from "react"
 import { DevHeader } from "../components/header"
-import { Container, Row, Col, Stack } from "react-bootstrap"
+import { Stack } from "react-bootstrap"
 import "../styles/index.scss"
 import { Hero } from "../components/hero"
 import { Sponsors } from "../components/sponsors"
@@ -17,21 +17,25 @@ const IndexPage = () => {
   const speakersRef = React.useRef(null)
   return (
     <div className="main">
-      <Stack gap={5}>
-        <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} />
-        <Hero />
-        <ShortDetails />
-        <WhatIsSummit />
-        <Speakers speakersRef={speakersRef} />
-        <div>
-          <Agenda agendaRef={agendaRef} />
-          <Sponsors />
-        </div>
-        <ContactUs />
-        <Where />
-        <PreviousSummit />
-        <SeeYou/>
-      </Stack>
+      <div className="bg">
+        <Stack gap={5}>
+          <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} />
+          <Hero />
+          <ShortDetails />
+          <WhatIsSummit />
+          <Speakers speakersRef={speakersRef} />
+          <div>
+            <Agenda agendaRef={agendaRef} />
+            <Sponsors />
+          </div>
+          <div className="contactUsWhereWrapper pt-5">
+            <ContactUs />
+            <Where />
+          </div>
+          <PreviousSummit />
+          <SeeYou />
+        </Stack>
+      </div>
     </div>
   )
 }

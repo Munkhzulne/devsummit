@@ -12,7 +12,7 @@ export const Where = () => {
     zoom: 11,
   }
   return (
-    <div className="cont">
+    <div className="cont mt-5">
       <div className="mx-8p dotoodCont">
         <div className="flex-row dotoodCont">
           <div className="leftCon">
