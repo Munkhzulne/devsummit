@@ -6,6 +6,8 @@
   color: #ffffff;
   border: 1px solid #ffffff;
   // margin: 1px;
+  overflow: hidden;
+  width: 200px;
   .time {
     background-color: white;
     color: #202459;
@@ -17,5 +19,28 @@
   }
   .text {
     padding-left: 16px;
+  }
+}
+.agendasCol {
+  width: 200px;
+}
+.agendaContainer {
+  overflow-x: scroll;
+  margin: 0px 20px;
+  width: auto !important;
+}
+@media screen and (min-width: 1080px) {
+  .agendaContainer {
+    overflow-x: visible;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .agendasCol {
+    width: 16.66%;
+  }
+  .eventItem {
+    width: 100%;
   }
 }
