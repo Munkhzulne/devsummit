@@ -1,5 +1,6 @@
 .tableNode {
   width: 250px;
+  border: 0;
 }
 .tableHeader {
   width: 250px;
@@ -8,25 +9,31 @@
   justify-content: center;
 }
 .nodeItem {
-  margin: 2px;
+  cursor: default !important;
+  margin: 3px;
   background: #202459;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  height: 60px;
+  padding: 0px !important;
+  width: calc(100% - 4px);
   .time {
     background-color: #ffffff;
     color: #202459;
-    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
+    padding: 4px;
+    min-width: 50px;
   }
   .name {
-    padding: 8px 16px;
+    padding: 4px 8px;
+    color: #ffffff;
   }
+}
+.nodeItemBorder {
+  margin-bottom: 6px;
 }
 .tableBigContainer {
   margin: 0px;
@@ -35,11 +42,11 @@
 }
 @media screen and (min-width: 1080px) {
   .tableContainer {
-    width: 83.33%;
+    width: 100%;
     margin: 0;
   }
   .tableBigContainer {
-    margin: 0px 8.33%;
+    margin: 0px;
     overflow: visible;
   }
   .tableNode {

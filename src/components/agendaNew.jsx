@@ -21,7 +21,7 @@ export const AgendaNew = ({ agendaRef }) => {
   let implementedDataTimeKey = Object.keys(implementedData)
   return (
     <div className="bg-secondary big-cont mt-1 pt-5 pb-5 px-4" ref={agendaRef}>
-      <div className="d-flex flex-row justify-content-between align-items-center mb-5 mx-8p">
+      <div className="d-flex flex-row justify-content-between align-items-center mb-5">
         <div className="text-header text-bold">Agenda</div>
         <div className="text-18 text-decoration-underline">{`For Inquiries & Partnership >`}</div>
       </div>
@@ -48,7 +48,17 @@ export const AgendaNew = ({ agendaRef }) => {
                     <td className="tableNode" key={"node" + index2}>
                       {dt[header] &&
                         dt[header].map((node, index3) => (
-                          <div key={"nodeItem" + index3} className="nodeItem">
+                          <div
+                            className={`nodeItem ${
+                              index3 != dt[header].length - 1
+                                ? "nodeItemBorder"
+                                : ""
+                            }`}
+                            key={"nodeItem" + index3}
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title={node.description}
+                          >
                             <div className="time">{node.startTime}</div>
                             <div className="name">{node.name}</div>
                           </div>
