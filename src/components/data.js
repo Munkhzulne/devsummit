@@ -1,11 +1,103 @@
 export const speaker = [
   {
     title: "Women in Tech_",
-    persons: [],
+    persons: [
+      {
+        firstName: "Oyun-Erdene",
+        lastName: "Namsrai",
+        role: "Professor",
+        work: "National University of Mongolia ",
+        picture: "Oyun-erdene",
+      },
+      {
+        firstName: "Bayarmaa",
+        lastName: "Gantumur",
+        role: "Business Analyst / Project Manager",
+        work: "Datacare LLC",
+        picture: "Yesui_Batsukh",
+      },
+      {
+        firstName: "Urandelger",
+        lastName: "Ochirkhuyag",
+        role: "CTO",
+        work: "SmartData",
+        picture: "urandelger",
+      },
+      {
+        firstName: "Naran",
+        lastName: "Batjargal",
+        role: "Co-founder/COO",
+        work: "Erxes Inc",
+        picture: "Yesui_Batsukh",
+      },
+      {
+        firstName: "Yesui",
+        lastName: "Batsukh",
+        role: "Academic manager / Project manager",
+        work: "Nest Academy / Nest Solutions",
+        picture: "Yesui_Batsukh",
+      },
+    ],
   },
   {
-    title: "AMA_",
-    persons: [],
+    title: "Panel Discussions_",
+    persons: [
+      {
+        firstName: "Bolortuya",
+        lastName: "Bayantur",
+        role: "Data Quality Analyst",
+        work: "Rio Tinto",
+        picture: "misheel",
+      },
+      {
+        firstName: "Deglee",
+        lastName: "Ganzorig",
+        role: "Graphic designer",
+        work: "Central TV",
+        picture: "misheel",
+      },
+      {
+        firstName: "Misheel",
+        lastName: "Batbuyan",
+        role: "Instructor",
+        work: "Nest Academy",
+        picture: "misheel",
+      },
+      {
+        firstName: "Anu-Ujin",
+        lastName: "Bat-Ulzii",
+        role: "Sr Front-end developer",
+        work: "erxes",
+        picture: "misheel",
+      },
+      {
+        firstName: "Eja",
+        lastName: "Batbold",
+        role: "",
+        work: "Tomyo edtech",
+        picture: "Eja Batbold",
+      },
+      {
+        firstName: "Enkhtuya",
+        lastName: "Dandar",
+        role: "Мэдээллийн технологийн төвийн захирал/Тэргүүлэх аудитор",
+        work: "Үндэсний Аудитын Газар",
+        picture: "misheel",
+      },
+      {
+        firstName: "Otgonbayar",
+        lastName: "Molom",
+        role: "CEO/Founder",
+        work: "DigIT LLC",
+        picture: "misheel",
+      },
+      {
+        firstName: "Dulgoon",
+        lastName: "",
+        role: "Founder / Sr UX Designer",
+        work: "User Experience Academy / Mezorn Technology",
+        picture: "misheel",
+      },
   },
   {
     title: "Workshops_",
@@ -15,7 +107,6 @@ export const speaker = [
     title: "Tech Talks_",
     persons: [
       {
-        topic: "Android + Kotlin: Jetpack Compose experience",
         firstName: "Zolboobayar",
         lastName: "Gantumur",
         role: "Tech Lead",
@@ -23,7 +114,6 @@ export const speaker = [
         picture: "Zolboobayar_Gantumur",
       },
       {
-        topic: "Native to Hybrid, Hybrid development",
         firstName: "Usukhbayar",
         lastName: "Ganbaatar",
         role: "Sr Mobile Developer",
@@ -31,7 +121,6 @@ export const speaker = [
         picture: "Usukhbayar_Ganbaatar",
       },
       {
-        topic: "GraphQL / Mobile",
         firstName: "Gansoronzon",
         lastName: "Norovgachil",
         role: "Sr Mobile Engineer",
@@ -39,7 +128,6 @@ export const speaker = [
         picture: "Gansoronzon_Norovgachil",
       },
       {
-        topic: "Women in Tech & Web Development",
         firstName: "Anu",
         lastName: "Otgonjargal",
         role: "Front-end Developer",
@@ -47,8 +135,6 @@ export const speaker = [
         picture: "Anu Otonjargal",
       },
       {
-        topic:
-          "Efficiency and Optimization of Design System and how it effects consistency of products",
         firstName: "Ariunaa",
         lastName: "Ganbat",
         role: "UX / UI designer",
@@ -56,7 +142,6 @@ export const speaker = [
         picture: "Zolboobayar_Gantumur",
       },
       {
-        topic: "Keeping up with education with AI",
         firstName: "Tuvshintur",
         lastName: "Tserendorj",
         role: "Founder",
@@ -72,7 +157,6 @@ export const speaker = [
         picture: "Tungalag_Ziinaa",
       },
       {
-        topic: "What is Music and AI? How AI/ML composes music?",
         firstName: "Khongorzul",
         lastName: "Munkhbat",
         role: "ML Engineer",
@@ -80,8 +164,6 @@ export const speaker = [
         picture: "Khongorzul_Munkhbat",
       },
       {
-        topic:
-          "CI/CD concepts apply to traditional software engineering, but they apply just as well to machine learning systems and are a critical part of MLOps strategy. After successfully developing a model, a data scientist should push the code, metadata, and documentation to a central repository and trigger a CI/CD pipeline. So what exactly should the CI/CD pipeline be?",
         firstName: "Tumur-Ochir",
         lastName: "Nasanjargal",
         role: "Senior ML Engineer",
@@ -89,7 +171,6 @@ export const speaker = [
         picture: "Tumur-Ochir_Nasanjargal",
       },
       {
-        topic: "Building Decentralized Applications (dapp)",
         firstName: "Munkh-Od",
         lastName: "Ganzorigt",
         role: "CTO",
@@ -97,7 +178,6 @@ export const speaker = [
         picture: "Munkh-Od_Ganzorigt",
       },
       {
-        topic: "Smart contract on UTXO model",
         firstName: "Tuvshintsenguun",
         lastName: "Erdenejargal",
         role: "Software Test Engineer",
@@ -105,7 +185,6 @@ export const speaker = [
         picture: "Tuvshintsenguun_Erdenejargal",
       },
       {
-        topic: "Effectiveness of Security Controls",
         firstName: "Ganbayar",
         lastName: "Uuganbayar",
         role: "Cyber security researcher",
@@ -113,8 +192,6 @@ export const speaker = [
         picture: "Munkh-Od_Ganzorigt",
       },
       {
-        topic:
-          "New Laws / Regulations in Mongolia about PII, Cybersecurity, Opendata",
         firstName: "Tengis",
         lastName: "Sukhee",
         role: "Information security advisor",
@@ -122,7 +199,6 @@ export const speaker = [
         picture: "Tengis_Sukhee",
       },
       {
-        topic: "Migrating microservices (Java, NodeJS) into Kubernetes",
         firstName: "Bilguun",
         lastName: "Bayarmagnai",
         role: "CTO",
@@ -130,8 +206,6 @@ export const speaker = [
         picture: "Bilguun_Bayarmagnai",
       },
       {
-        topic:
-          "Web app & Browser extension integration test (Selenium WebDriver + Puppeteer)",
         firstName: "Bilguun",
         lastName: "Bayarsaikhan",
         role: "Senior Software Engineer",
@@ -139,7 +213,6 @@ export const speaker = [
         picture: "Bilguun_Bayarsaikhan",
       },
       {
-        topic: "CI/CD",
         firstName: "Dulmandakh",
         lastName: "Sukhbaatar",
         role: "Founder / CEO",
@@ -147,8 +220,6 @@ export const speaker = [
         picture: "Dulmandakh_Sukhbaatar",
       },
       {
-        topic:
-          "Structured and centralized logging service, Monitoring your systems and services, Alerting on thresholds, integrations for logging, monitoring, and alerting",
         firstName: "Lkhavuujal",
         lastName: "Nipra",
         role: "Director of DevOps Division",
@@ -156,7 +227,6 @@ export const speaker = [
         picture: "Lkhavuujal_Nipra",
       },
       {
-        topic: "Serverless IoT Architecture",
         firstName: "Davgasuren",
         lastName: "Batbold",
         role: "Founder",
@@ -164,7 +234,6 @@ export const speaker = [
         picture: "Batmunkh_Enkhtaivan",
       },
       {
-        topic: "Dynamic Ads",
         firstName: "Batmunkh",
         lastName: "Enkhtaivan",
         role: "Team Leader",
@@ -172,7 +241,6 @@ export const speaker = [
         picture: "Batmunkh_Enkhtaivan",
       },
       {
-        topic: "Plugin architecture",
         firstName: "BatAmar",
         lastName: "Battulga",
         role: "CTO",
@@ -180,7 +248,6 @@ export const speaker = [
         picture: "BatAmar_Battulga",
       },
       {
-        topic: "Architecting for video call based telemed app",
         firstName: "Munkh-Abdul",
         lastName: "Mikael",
         role: "CTO",
@@ -188,8 +255,6 @@ export const speaker = [
         picture: "Munkh-Abdul_Mikael",
       },
       {
-        topic:
-          "Architecting for a nationwide enterprise-grade mobile app. Use case: eMongolia",
         firstName: "Batbayar",
         lastName: "Bazarragchaa",
         role: "CTO",
@@ -197,8 +262,6 @@ export const speaker = [
         picture: "Batbayar_Bazarragchaa",
       },
       {
-        topic:
-          "Stream processing data in real-time using Apache Kafka and Apache Samza",
         firstName: "Matus",
         lastName: "Faro",
         role: "Architecture Lead",
@@ -206,8 +269,6 @@ export const speaker = [
         picture: "Matus_Faro",
       },
       {
-        topic:
-          "TomYo.io - is a drag-and-drop app builder for educational content creators",
         firstName: "Erkhembayar",
         lastName: "Gantulga",
         role: "CTO",
@@ -215,7 +276,6 @@ export const speaker = [
         picture: "Erkhembayar_Gantulga",
       },
       {
-        topic: "Indie game developer and his first game",
         firstName: "Monhoo",
         lastName: "Batraa",
         role: "Indie Game Developer",
@@ -223,7 +283,6 @@ export const speaker = [
         picture: "Erkhembayar_Gantulga",
       },
       {
-        topic: "Integrating with Unity / Unreal engines",
         firstName: "Batzorig",
         lastName: "Byambabaatar",
         role: "VR Dev / PM",
@@ -231,7 +290,6 @@ export const speaker = [
         picture: "Erkhembayar_Gantulga",
       },
       {
-        topic: "Reliving History in VR",
         firstName: "Namuun",
         lastName: "Bayarsaikhan",
         role: "VR Dev / PM",

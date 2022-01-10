@@ -40,9 +40,7 @@ $theme-colors: (
 .main {
   overflow-x: hidden;
   margin: 0;
-  background-color: $primary;
-  background: url("../images/repeated-square.png"), #202459;
-  background-blend-mode: multiply, normal;
+  background-image: url("../images/tilePattern.png");
   font-family: "Jura", sans-serif;
   color: white !important;
 }
