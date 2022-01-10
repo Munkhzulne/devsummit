@@ -15,24 +15,24 @@ import { SeeYou } from "../components/see-you"
 const IndexPage = () => {
   const agendaRef = React.useRef(null)
   const speakersRef = React.useRef(null)
+  const partnersRef = React.useRef(null)
   return (
     <div className="main">
       <div className="bg">
         <Stack gap={5}>
-          <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} />
+          <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} partnersRef={partnersRef}/>
           <Hero />
           <ShortDetails />
           <WhatIsSummit />
           <Speakers speakersRef={speakersRef} />
           <div>
             <Agenda agendaRef={agendaRef} />
-            <Sponsors />
           </div>
           <div className="contactUsWhereWrapper pt-5">
             <ContactUs />
             <Where />
           </div>
-          <PreviousSummit />
+            <Sponsors partnersRef = {partnersRef}/>
           <SeeYou />
         </Stack>
       </div>

@@ -1,8 +1,8 @@
 import React from "react"
 import { Row, Col } from "react-bootstrap"
-export const Sponsors = () => {
+export const Sponsors = ({partnersRef}) => {
   return (
-    <div>
+    <div ref={partnersRef}>
       <div className="animation getTicket d-flex justify-content-center align-items-center">
         <div className="animation-con">
           <div style={{ color: "white" }} className="animation-con1 py-3">

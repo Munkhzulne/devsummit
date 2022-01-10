@@ -2,14 +2,28 @@ import React from "react"
 import GoogleMapReact from "google-map-react"
 import "../styles/where.scss"
 import { PrimaryButton, SecondaryButton } from "./buttons"
-const AnyReactComponent = ({ text }) => <div>{text}</div>
+import { Logo } from "./logo"
+
+const AnyReactComponent = ({ text }) => (
+  <div
+    className="d-flex justify-content-center flex-column align-items-center"
+  >
+    <div
+      className="bg-primary py-3 px-1"
+      style={{ whiteSpace: "nowrap", width: '235px', textAlign: 'center'}}
+    >
+      {text}
+    </div>
+    <Logo />
+  </div>
+)
 export const Where = () => {
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: 47.903801,
+      lng: 106.92236,
     },
-    zoom: 11,
+    zoom: 18,
   }
   return (
     <div className="cont mt-5">
@@ -33,20 +47,32 @@ export const Where = () => {
 
           <div className="mapContainer">
             <GoogleMapReact
-              bootstrapURLKeys={{ key: "" }}
-              defaultCenter={defaultProps.center}
-              defaultZoom={defaultProps.zoom}
+              bootstrapURLKeys={{
+                key: "",
+              }}
+              center={defaultProps.center}
+              zoom={defaultProps.zoom}
+              options={{
+                styles: [
+                  {
+                    featureType: "all",
+                    elementType: "labels",
+                    stylers: [{ visibility: "on" }],
+                  },
+                ],
+              }}
               yesIWantToUseGoogleMapApiInternals
             >
               <AnyReactComponent
-                lat={59.955413}
-                lng={30.337844}
-                text="My Markerr"
+                lat={47.90410}
+                lng={106.92235}
+                text="The Corporate Hotel and Convention Centre"
               />
             </GoogleMapReact>
           </div>
         </div>
       </div>
+      ,
     </div>
   )
 }

@@ -18,12 +18,13 @@ export const Hero = () => {
             <div className="circle-header">
 
             </div>
-            <div className="text-huge">
-              for_ <br />
+            <div className="text-huge text-bold">
+            The biggest tech conference in Mongolia for developers by developers_
+              {/* for_ <br />
               <span className="text-bold">Developers</span>
               <br />
               by_ <br />
-              <span className="text-bold">Developers</span>
+              <span className="text-bold">Developers</span> */}
             </div>
             <div className="text-20 text-bold">
               January 22, 2022 <br />
@@ -31,7 +32,7 @@ export const Hero = () => {
             </div>
             <div className="d-flex flex-row">
               <PrimaryButton> Buy Ticket</PrimaryButton>
-              <SecondaryButton>AGENDA</SecondaryButton>
+              <SecondaryButton>{`For Partnership >`}</SecondaryButton>
             </div>
           </Stack>
         </Col>

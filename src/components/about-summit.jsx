@@ -3,7 +3,6 @@ import React from "react"
 import { Row, Col, Container, Stack } from "react-bootstrap"
 export const WhatIsSummit = () => {
   return (
-    // <Container fluid className="">
     <div className="position-relative">
       <div className="circle-about1 position-absolute"></div>
       <div className="circle-about2 position-absolute"></div>
@@ -12,7 +11,7 @@ export const WhatIsSummit = () => {
       <div className="cont my-3">
         <Row className="my-3 mb-0 row-margin-none">
           <Col md={{ offset: 1, span: 4 }} className="text-header text-bold">
-            What exactly is this?_
+            DevSummit_
           </Col>
           <Col md={{ offset: 0, span: 6 }}>
             <Stack gap={4} className="text-20">
@@ -32,17 +31,23 @@ export const WhatIsSummit = () => {
                 fasten the development progress.
               </div>
               <div>
-                DevSummit will bring together over 600+ tech professionals for
+                DevSummit will bring together over 800+ tech professionals for
                 an entire day and will consist of local and international
-                leading experts’ speeches, lightning talks, knowledge transfer
-                sessions, exhibitions and networking opportunity with the
-                community.
+                leading experts’ speeches, lightning talks, Women Techmakers,
+                knowledge transfer sessions, exhibitions and networking
+                opportunity with the community.
+              </div>
+              <div>
+                DevSummit 2022 is going to be held during an unprecedented time
+                of COVID. As organizers, we are committed to abide by the COVID
+                regulations imposed by the State Emergency Committee. This means
+                50% capacity and attendees will be required to have at least 2
+                shots of vaccine.
               </div>
             </Stack>
           </Col>
         </Row>
       </div>
     </div>
-    //  {/* </Container> */}
   )
 }

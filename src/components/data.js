@@ -27,7 +27,7 @@ export const speaker = [ {
         lastName: "Ganbaatar",
         role: "Sr Mobile Developer",
         work: "Mezorn",
-        picture: "Zolboobayar_Gantumur",
+        picture: "Usukhbayar_Ganbaatar",
       },
       {
         topic: "GraphQL / Mobile",
@@ -35,7 +35,7 @@ export const speaker = [ {
         lastName: "Norovgachil",
         role: "Sr Mobile Engineer",
         work: "Meta / Facebook",
-        picture: "Zolboobayar_Gantumur",
+        picture: "Gansoronzon_Norovgachil",
       },
       {
         topic: "Women in Tech & Web Development",
@@ -43,7 +43,7 @@ export const speaker = [ {
         lastName: "Otgonjargal",
         role: "Front-end Developer",
         work: "Steppelink LLC",
-        picture: "Zolboobayar_Gantumur",
+        picture: "Anu Otonjargal",
       },
       {
         topic:
@@ -85,7 +85,7 @@ export const speaker = [ {
         lastName: "Nasanjargal",
         role: "Senior ML Engineer",
         work: "And Systems Tech LLC",
-        picture: "Khongorzul_Munkhbat",
+        picture: "Tumur-Ochir_Nasanjargal",
       },
       {
         topic: "Building Decentralized Applications (dapp)",
@@ -101,7 +101,7 @@ export const speaker = [ {
         lastName: "Erdenejargal",
         role: "Software Test Engineer",
         work: "Input Output Global",
-        picture: "Munkh-Od_Ganzorigt",
+        picture: "Tuvshintsenguun_Erdenejargal",
       },
       {
         topic: "Effectiveness of Security Controls",
@@ -126,7 +126,7 @@ export const speaker = [ {
         lastName: "Bayarmagnai",
         role: "CTO",
         work: "Nomadays LLC",
-        picture: "Tengis_Sukhee",
+        picture: "Bilguun_Bayarmagnai",
       },
       {
         topic:
@@ -135,7 +135,7 @@ export const speaker = [ {
         lastName: "Bayarsaikhan",
         role: "Senior Software Engineer",
         work: "Unimedia Solutions",
-        picture: "Tengis_Sukhee",
+        picture: "Bilguun_Bayarsaikhan",
       },
       {
         topic: "CI/CD",
@@ -143,7 +143,7 @@ export const speaker = [ {
         lastName: "Sukhbaatar",
         role: "Founder / CEO",
         work: "Khuur Music Group LLC",
-        picture: "Tengis_Sukhee",
+        picture: "Dulmandakh_Sukhbaatar",
       },
       {
         topic:
@@ -152,7 +152,7 @@ export const speaker = [ {
         lastName: "Nipra",
         role: "Director of DevOps Division",
         work: "Grapecity Mongolia LLC",
-        picture: "Tengis_Sukhee",
+        picture: "Lkhavuujal_Nipra",
       },
       {
         topic: "Serverless IoT Architecture",

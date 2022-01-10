@@ -11,8 +11,8 @@ $theme-colors: (
     font-weight: bold;
   }
   &-huge {
-    font-size: max(5vw, 58px) !important;
-    line-height: max(5vw, 58px);
+    font-size: max(4vw, 48px) !important;
+    line-height: max(4vw, 48px);
   }
   &-header {
     font-size: max(2.8vw, 36px) !important;
@@ -46,6 +46,13 @@ $theme-colors: (
   font-family: "Jura", sans-serif;
   color: white !important;
 }
+.summit19 {
+  background-color: #0e1528 !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/pre-bg.png");
+  color: white;
+}
 .bg {
   background: url("../images/blurEllipses.svg");
   background-blend-mode: multiply, normal;
@@ -61,8 +68,11 @@ $theme-colors: (
   }
 
   &-b {
-    transition: 0.5s;
     border: 1px solid white;
+    transition: 0.5s;
+    &:hover {
+      border: 1px solid transparent !important;
+    }
   }
 }
 .s-btn {
@@ -115,6 +125,31 @@ $theme-colors: (
     top: -60px;
 
     background: radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #93d2f4 0%,
+      #202459 100%
+    );
+    background: -moz-radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #93d2f4 0%,
+      #202459 100%
+    );
+    background: -webkit-radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #93d2f4 0%,
+      #202459 100%
+    );
+    background: -webkit-radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #93d2f4 0%,
+      #202459 100%
+    );
+    background: -o-radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #93d2f4 0%,
+      #202459 100%
+    );
+    background: -ms-radial-gradient(
       613.25% 235.35% at 42.73% 100%,
       #93d2f4 0%,
       #202459 100%
@@ -252,10 +287,6 @@ tr {
   }
 }
 .pre-summit {
-  background-color: #0e1528 !important;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/pre-bg.png");
 }
 .row-margin-none {
   margin-right: 0 !important;

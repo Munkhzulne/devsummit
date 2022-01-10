@@ -27,8 +27,8 @@ export const Profile = ({ picture, firstName, lastName, role, work }) => {
   )
 }
 export const Speakers = ({ speakersRef }) => {
-  const [key, setKey] = useState("Women in Tech_")
-  const titles = ["Women in Tech_", "Tech Talks_", "AMA_", "Workshops_"]
+  const [key, setKey] = useState("Tech Talks_")
+  const titles = ["Tech Talks_", "Women in Tech_", "Panel Discussions_", "Workshops_"]
   const data1 = [
     {
       title: "Women in Tech_",
@@ -49,7 +49,7 @@ export const Speakers = ({ speakersRef }) => {
       }),
     },
     {
-      title: "AMA_",
+      title: "Panel Discussions_",
       persons: new Array(9).fill({
         profileImage: portrait,
         lastName: "Bilguun-Erdene",
@@ -73,7 +73,7 @@ export const Speakers = ({ speakersRef }) => {
       <div className="bottomCircle cc" />
       <div className="col mx-8p onTop">
         <div className="justify-start wp100">
-          <p className="text-header text-bold">+30 Speakers_</p>
+          <p className="text-header text-bold">Our Speakers_</p>
         </div>
         <Tabs
           id="controlled-tab-example"
@@ -86,7 +86,7 @@ export const Speakers = ({ speakersRef }) => {
               <div className="row mx0 mt56 tabData onTop" key={index}>
                 {speaker
                   .find(dt => dt.title == title)
-                  .persons.map((person, ind) => (
+                  ?.persons.map((person, ind) => (
                     <Col
                       sm="6"
                       md="3"

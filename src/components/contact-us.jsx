@@ -11,7 +11,7 @@ export const ContactUs = () => {
           <br />
           opportunities and other inquiries
         </div>
-        <PrimaryButton borderStyle="darkBorder">Contact Us</PrimaryButton>
+        <PrimaryButton borderStyle="darkBorder" url="">Contact Us</PrimaryButton>
       </div>
     </div>
   )
