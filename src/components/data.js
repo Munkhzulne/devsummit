@@ -98,6 +98,7 @@ export const speaker = [
         work: "User Experience Academy / Mezorn Technology",
         picture: "misheel",
       },
+    ],
   },
   {
     title: "Workshops_",
@@ -302,8 +303,8 @@ export const speaker = [
 export const events = {
   "Tech Talks_": [
     {
-      name: "Tech1 event",
-      description: "This is a tech event",
+      name: "Android + Kotlin: Jetpack Compose experience",
+      description: "Zolboobayar, Tech Lead @ Meta Global Inc LLC",
       startTime: "8:00",
       endTime: "9:30",
     },
