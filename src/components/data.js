@@ -252,6 +252,12 @@ export const events = {
     {
       name: "Tech1 event",
       description: "This is a tech event",
+      startTime: "8:00",
+      endTime: "9:30",
+    },
+    {
+      name: "Tech1 event",
+      description: "This is a tech event",
       startTime: "10:00",
       endTime: "11:00",
     },

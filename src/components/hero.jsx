@@ -16,7 +16,7 @@ export const Hero = () => {
         <Col md={{ offset: 1, span: 5 }}>
           <Stack gap={5} className="position-relative">
             <div className="circle-header"></div>
-            <div className="text-huge text-bold">
+            <div className="text-huge text-bold zIndex3">
               The biggest tech conference in Mongolia for developers by
               developers_
               {/* for_ <br />
