@@ -98,6 +98,7 @@ export const speaker = [
         work: "User Experience Academy / Mezorn Technology",
         picture: "misheel",
       },
+    ],
   },
   {
     title: "Workshops_",
