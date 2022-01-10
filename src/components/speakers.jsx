@@ -8,7 +8,6 @@ import "../styles/speakers.scss"
 import { speaker } from "./data"
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 export const Profile = ({ picture, firstName, lastName, role, work }) => {
-  console.log(picture)
   return (
     <Card className="cardContainer w-100">
       <Card.Img
@@ -27,46 +26,9 @@ export const Profile = ({ picture, firstName, lastName, role, work }) => {
   )
 }
 export const Speakers = ({ speakersRef }) => {
-  const [key, setKey] = useState("Tech Talks_")
-  const titles = ["Tech Talks_", "Women in Tech_", "Panel Discussions_", "Workshops_"]
-  const data1 = [
-    {
-      title: "Women in Tech_",
-      persons: new Array(7).fill({
-        profileImage: portrait,
-        lastName: "Boldbaatar",
-        firstName: "Munkhzul",
-        description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
-      }),
-    },
-    {
-      title: "Tech Talks_",
-      persons: new Array(8).fill({
-        profileImage: portrait,
-        lastName: "Bilguun-Erdene",
-        firstName: "Erdene-Jargal",
-        description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
-      }),
-    },
-    {
-      title: "Panel Discussions_",
-      persons: new Array(9).fill({
-        profileImage: portrait,
-        lastName: "Bilguun-Erdene",
-        firstName: "Erdene-Jargal",
-        description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
-      }),
-    },
-    {
-      title: "Workshops_",
-      persons: new Array(10).fill({
-        profileImage: portrait,
-        lastName: "Bilguun-Erdene",
-        firstName: "Erdene-Jargal",
-        description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
-      }),
-    },
-  ]
+  const [key, setKey] = useState("Women in Tech_")
+  const titles = ["Women in Tech_", "Tech Talks_", "AMA_", "Workshops_"]
+
   return (
     <div className="cont relative" ref={speakersRef}>
       <div className="topCircle cc d-none d-md-block" />

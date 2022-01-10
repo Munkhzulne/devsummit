@@ -1,0 +1,51 @@
+.tableNode {
+  width: 250px;
+}
+.tableHeader {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nodeItem {
+  margin: 2px;
+  background: #202459;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  .time {
+    background-color: #ffffff;
+    color: #202459;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  .name {
+    padding: 8px 16px;
+  }
+}
+.tableBigContainer {
+  margin: 0px;
+  width: calc(100% - 40px);
+  overflow-x: scroll;
+}
+@media screen and (min-width: 1080px) {
+  .tableContainer {
+    width: 83.33%;
+    margin: 0;
+  }
+  .tableBigContainer {
+    margin: 0px 8.33%;
+    overflow: visible;
+  }
+  .tableNode {
+    width: 20%;
+  }
+  .tableHeader {
+    width: 20%;
+  }
+}

@@ -13,7 +13,7 @@ export const Hero = () => {
   return (
     <div className="cont-big">
       <Row className="w-100">
-        <Col md={{offset:1, span:5}}>
+        <Col md={{ offset: 1, span: 5 }}>
           <Stack gap={5} className="position-relative">
             <div className="text-huge text-bold">
             The biggest tech conference in Mongolia for developers by developers_
@@ -32,7 +32,10 @@ export const Hero = () => {
           <div>
             <div id="scene">
               <div data-depth="0.3" className="position-relative">
-                <StaticImage src="../images/man.svg"  style={{ minWidth: "100%" }} />
+                <StaticImage
+                  src="../images/man.svg"
+                  style={{ minWidth: "100%" }}
+                />
               </div>
             </div>
           </div>
