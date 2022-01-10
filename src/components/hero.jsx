@@ -15,16 +15,8 @@ export const Hero = () => {
       <Row className="w-100">
         <Col md={{offset:1, span:5}}>
           <Stack gap={5} className="position-relative">
-            <div className="circle-header">
-
-            </div>
             <div className="text-huge text-bold">
             The biggest tech conference in Mongolia for developers by developers_
-              {/* for_ <br />
-              <span className="text-bold">Developers</span>
-              <br />
-              by_ <br />
-              <span className="text-bold">Developers</span> */}
             </div>
             <div className="text-20 text-bold">
               January 22, 2022 <br />
@@ -38,10 +30,6 @@ export const Hero = () => {
         </Col>
         <Col xs={12} md="6" className="d-flex align-items-center my-5 mb-1">
           <div>
-            <div className="position-relative">
-              <div className="circle-man1"></div>
-              <div className="circle-man2"></div>
-            </div>
             <div id="scene">
               <div data-depth="0.3" className="position-relative">
                 <StaticImage src="../images/man.svg"  style={{ minWidth: "100%" }} />

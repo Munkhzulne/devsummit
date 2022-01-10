@@ -20,7 +20,11 @@ const IndexPage = () => {
     <div className="main">
       <div className="bg">
         <Stack gap={5}>
-          <DevHeader agendaRef={agendaRef} speakersRef={speakersRef} partnersRef={partnersRef}/>
+          <DevHeader
+            agendaRef={agendaRef}
+            speakersRef={speakersRef}
+            partnersRef={partnersRef}
+          />
           <Hero />
           <ShortDetails />
           <WhatIsSummit />
@@ -32,7 +36,7 @@ const IndexPage = () => {
             <ContactUs />
             <Where />
           </div>
-            <Sponsors partnersRef = {partnersRef}/>
+          <Sponsors partnersRef={partnersRef} />
           <SeeYou />
         </Stack>
       </div>
