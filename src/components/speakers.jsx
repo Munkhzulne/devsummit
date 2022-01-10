@@ -26,8 +26,8 @@ export const Profile = ({ picture, firstName, lastName, role, work }) => {
   )
 }
 export const Speakers = ({ speakersRef }) => {
-  const [key, setKey] = useState("Women in Tech_")
-  const titles = ["Women in Tech_", "Tech Talks_", "AMA_", "Workshops_"]
+  const [key, setKey] = useState("Tech Talks_")
+  const titles = ["Tech Talks_", "Women in Tech_",  "Panel Discussions_", "Workshops_"]
 
   return (
     <div className="cont relative" ref={speakersRef}>
