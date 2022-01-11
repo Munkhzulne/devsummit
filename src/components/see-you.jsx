@@ -33,7 +33,7 @@ export const SeeYou = () => {
       </div>
       <div className="bg-secondary py-4 justify-content-center d-flex flex-column align-items-center">
         <div>
-          <StaticImage src="../images/logoUnread.png" />
+          <StaticImage src="../images/logoUnread.png" alt="logoUnread" />
         </div>
         <div className="text-16">Copyright © 2022 DevSummit Mongolia.</div>
       </div>

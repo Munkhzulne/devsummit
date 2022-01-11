@@ -16,7 +16,8 @@ export const Hero = () => {
         <Col md={{ offset: 1, span: 5 }}>
           <Stack gap={5} className="position-relative">
             <div className="text-huge text-bold">
-            The biggest tech conference in Mongolia for developers by developers_
+              The biggest tech conference in Mongolia for developers by
+              developers_
             </div>
             <div className="text-20 text-bold">
               January 22, 2022 <br />
@@ -33,6 +34,7 @@ export const Hero = () => {
             <div id="scene">
               <div data-depth="0.3" className="position-relative">
                 <StaticImage
+                  alt="hero"
                   src="../images/man.svg"
                   style={{ minWidth: "100%" }}
                 />

@@ -27,7 +27,12 @@ export const Profile = ({ picture, firstName, lastName, role, work }) => {
 }
 export const Speakers = ({ speakersRef }) => {
   const [key, setKey] = useState("Tech Talks_")
-  const titles = ["Tech Talks_", "Women in Tech_",  "Panel Discussions_", "Workshops_"]
+  const titles = [
+    "Tech Talks_",
+    "Women in Tech_",
+    "Panel Discussions_",
+    "Workshops_",
+  ]
 
   return (
     <div className="cont relative" ref={speakersRef}>
@@ -44,18 +49,24 @@ export const Speakers = ({ speakersRef }) => {
           className="ml-0 onTop"
         >
           {titles.map((title, index) => (
-            <Tab eventKey={title} title={title} tabClassName="tabStyle text-20">
+            <Tab
+              eventKey={title}
+              title={title}
+              tabClassName="tabStyle text-20"
+              key={"tab" + index}
+            >
               <div className="row mx0 mt56 tabData onTop" key={index}>
                 {speaker
                   .find(dt => dt.title == title)
                   ?.persons.map((person, ind) => (
                     <Col
+                      key={index * titles.length + ind + "col"}
                       sm="6"
                       md="3"
                       xs="12"
                       className="justify-content-center d-flex"
                     >
-                      <Profile {...person} key={index * 4 + ind} />
+                      <Profile {...person} key={index * titles.length + ind} />
                     </Col>
                   ))}
               </div>
