@@ -1,6 +1,4 @@
 import React from "react"
-import { Row, Col, Stack, Table } from "react-bootstrap"
-
 const data = [
   {
     time: "12:00",
@@ -36,7 +34,10 @@ const data = [
 
 const AgendaItem = ({ item }) => {
   return (
-    <div className="d-flex flex-row border border-white my-2 mx-2" style={{whiteSpace: "nowrap"}}>
+    <div
+      className="d-flex flex-row border border-white my-2 mx-2"
+      style={{ whiteSpace: "nowrap" }}
+    >
       <div className="align-items-center d-flex bg-white text-bold text-dark px-2 text-16">
         {item.time}
       </div>

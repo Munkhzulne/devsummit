@@ -1,8 +1,7 @@
 import * as React from "react"
-import { Container, Row, Col, Stack } from "react-bootstrap"
+import { Row, Col, Stack } from "react-bootstrap"
 import { PrimaryButton, SecondaryButton } from "../components/buttons"
 import Parallax from "parallax-js"
-import a from "../images/man.svg"
 import { useEffect } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 export const Hero = () => {

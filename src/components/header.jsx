@@ -1,9 +1,8 @@
 import { Link, navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { Navbar, Container, Nav } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 import { PrimaryButton, SecondaryButton } from "./buttons"
-import { Logo } from "./logo"
 
 export const DevHeader = ({
   agendaRef,

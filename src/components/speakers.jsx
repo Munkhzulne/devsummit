@@ -2,11 +2,9 @@ import React, { useState } from "react"
 import Tab from "react-bootstrap/Tab"
 import Tabs from "react-bootstrap/Tabs"
 import Card from "react-bootstrap/Card"
-import portrait from "../images/portrait2.png"
-import { Col, Image } from "react-bootstrap"
+import { Col } from "react-bootstrap"
 import "../styles/speakers.scss"
 import { speaker } from "./data"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 export const Profile = ({ picture, firstName, lastName, role, work }) => {
   return (
     <Card className="cardContainer w-100">
@@ -57,7 +55,7 @@ export const Speakers = ({ speakersRef }) => {
             >
               <div className="row mx0 mt56 tabData onTop" key={index}>
                 {speaker
-                  .find(dt => dt.title == title)
+                  .find(dt => dt.title === title)
                   ?.persons.map((person, ind) => (
                     <Col
                       key={index * titles.length + ind + "col"}
