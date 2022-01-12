@@ -1,6 +1,6 @@
 import React from "react"
 
-export const PrimaryButton = ({ children, borderStyle = "border-white", url = "https://shoppy.mn/" }) => {
+export const PrimaryButton = ({ children, borderStyle = "border-white", url = "https://shoppy.mn/products/unread-devsummit-2022" }) => {
   const openWindow = () => {
     window.open(url, '_blank').focus();
   }

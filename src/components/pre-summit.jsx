@@ -1,16 +1,61 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { Col, Row, Stack } from "react-bootstrap"
-import portrait from "../images/portrait2.png"
+import { Col, Row, Stack, Card } from "react-bootstrap"
+import portrait1 from "../images/bayarsaikhan-1.jpeg"
+import portrait from "../images/selina.jpeg"
+import portrait2 from "../images/ehab-1.jpeg"
+import portrait3 from "../images/boldtulga.jpeg"
 import { SecondaryButton } from "./buttons"
-import { Profile } from "./speakers"
+const Profile = ({ picture, firstName, lastName, role, work }) => {
+  return (
+    <Card className="cardContainer w-100">
+      <Card.Img
+        variant="top"
+        src={picture}
+        className="cardImage w-100 h-100"
+      />
+      <Card.Body>
+        <Card.Title className="text-20">
+          <div>{firstName}</div>
+          <div>{lastName}</div>
+        </Card.Title>
+        <Card.Text className="cardDesc text-18">{`${role} @ ${work}`}</Card.Text>
+      </Card.Body>
+    </Card>
+  )
+}
 
-const data = new Array(4).fill({
-  profileImage: portrait,
-  lastName: "Bilguun-Erdene",
-  firstname: "Erdene-Jargal",
-  description: "Serial Entrepreneur, Co-Founder @ Promotion Craft",
-})
+const data = [
+  {
+    picture: portrait,
+    lastName: "Liu",
+    firstName: "Selina",
+    role: "Software Engineer",
+    work: "Airbnb"
+  },
+  {
+    picture: portrait1,
+    lastName: "Volodya",
+    firstName: "Bayarsaikhan",
+    role: "COO",
+    work: "AND Global (LendMN)"
+  },
+  {
+    picture: portrait2,
+    lastName: "Ganbaatar",
+    firstName: "Boldtulga",
+    role: "Software Engineer",
+    work: "Uber"
+  },
+  {
+    picture: portrait3,
+    lastName: "Eltayeb",
+    firstName: "Ehab",
+    role: "Serial Entrepreneur, Co-Founder",
+    work: "Promotion Craft"
+  }
+
+]
 
 export const PreviousSummit = () => {
   return (
@@ -36,6 +81,7 @@ export const PreviousSummit = () => {
                   </Col>
                 ))}
               </div>
+              
             </Stack>
             <Stack gap={3}>
               <div className="text-header text-bold w-100">Gallery</div>
@@ -54,7 +100,7 @@ export const PreviousSummit = () => {
                 </Col>
               </Row>
               <div className="d-flex align-items-center justify-content-center">
-                <SecondaryButton>See all +</SecondaryButton>
+                <SecondaryButton onClick={() => window.open("https://www.facebook.com/media/set/?set=a.2033561916945074&type=3", '_blank').focus()}>See all +</SecondaryButton>
               </div>
             </Stack>
           </Stack>

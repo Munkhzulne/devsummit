@@ -14,10 +14,12 @@ import { PreviousSummit } from "../components/pre-summit"
 import ContactUs from "../components/contact-us"
 import { SeeYou } from "../components/see-you"
 import AgendaNew from "../components/agendaNew"
+import { Test } from "../components/test"
 const IndexPage = () => {
   const agendaRef = React.useRef(null)
   const speakersRef = React.useRef(null)
   const partnersRef = React.useRef(null)
+  const contactRef = React.useRef(null)
   return (
     <div className="main">
       <div className="bg">
@@ -26,22 +28,20 @@ const IndexPage = () => {
             agendaRef={agendaRef}
             speakersRef={speakersRef}
             partnersRef={partnersRef}
+            contactRef={contactRef}
           />
           <Hero />
           <ShortDetails />
           <WhatIsSummit />
           <Speakers speakersRef={speakersRef} />
           <div>
-            <AgendaNew agendaRef={agendaRef} />
-            {/* <Agendas agendaRef={agendaRef} /> */}
-            {/* <Agenda agendaRef={agendaRef} /> */}
-            <Sponsors />
+            <Test agendaRef={agendaRef} />
+            <Sponsors partnersRef={partnersRef}/>
           </div>
           <div className="contactUsWhereWrapper pt-5">
-            <ContactUs />
+            <ContactUs contactRef={contactRef}/>
             <Where />
           </div>
-          <Sponsors partnersRef={partnersRef} />
           <SeeYou />
         </Stack>
       </div>

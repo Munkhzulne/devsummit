@@ -31,10 +31,10 @@ export const Where = () => {
         <div className="flex-row dotoodCont">
           <div className="leftCon">
             <div className="text-header">
-              Where & <br />
+              Where 
               when?_
             </div>
-            <div className="text-16 mt-24">
+            <div className="text-20 mt-3">
               January 22, 2022
               <br />
               @Corporate Hotel and Convention Centre

@@ -117,7 +117,7 @@ export const WhatIsSummit = () => {
             <Col md={{ offset: 1, span: 6 }}>
               <Stack gap={4} className="text-20">
                 <div>
-                  At DevSummit 2019, we are not only brining industry experts to
+                  At DevSummit 2022, we are not only brining industry experts to
                   give technical talks but we are also bringing exceptional
                   leaders to come and provide hands-on workshop sessions on
                   various topics. Some highlight of the workshop will cover
@@ -144,7 +144,7 @@ export const WhatIsSummit = () => {
             <Col md={{ offset: 1, span: 6 }}>
               <Stack gap={4} className="text-20">
                 <div>
-                  At DevSummit 2019, we are not only brining industry experts to
+                  At DevSummit 2022, we are not only brining industry experts to
                   give technical talks but we are also bringing exceptional
                   leaders to come and provide hands-on workshop sessions on
                   various topics. Some highlight of the workshop will cover

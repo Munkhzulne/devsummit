@@ -2,10 +2,15 @@
 $primary: #202459;
 // $spacer: 3
 $secondary: #282e74;
+$success: #6ed270;
 $theme-colors: (
   "primary": #202459,
   "secondary": #282e74,
+  "success": #6ed270,
 );
+button {
+  outline: none;
+}
 .text {
   &-bold {
     font-weight: bold;
@@ -51,10 +56,14 @@ $theme-colors: (
   background-image: url("../images/pre-bg.png");
   color: white;
 }
+.pre-line {
+  white-space: pre-line;
+}
 .bg {
   background: url("../images/blurEllipses.svg");
   background-blend-mode: multiply, normal;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .p-btn {
   background: linear-gradient(90deg, #282e74 0%, #57b9a3 122.67%);
@@ -97,6 +106,11 @@ $theme-colors: (
       #6ed270 0%,
       #202459 100%
     );
+    background: -webkit-radial-gradient(
+      397.97% 418.32% at 89.13% 25.38%,
+      #6ed270 0%,
+      #202459 100%
+    );
     opacity: 0.8;
     filter: blur(6vw);
   }
@@ -108,6 +122,11 @@ $theme-colors: (
     top: 15rem;
 
     background: radial-gradient(
+      613.25% 235.35% at 42.73% 100%,
+      #3a676b 0%,
+      #202459 100%
+    );
+    background: -webkit-radial-gradient(
       613.25% 235.35% at 42.73% 100%,
       #3a676b 0%,
       #202459 100%

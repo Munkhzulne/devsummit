@@ -5,7 +5,13 @@ import { Navbar, Container, Nav } from "react-bootstrap"
 import { PrimaryButton, SecondaryButton } from "./buttons"
 import { Logo } from "./logo"
 
-export const DevHeader = ({ agendaRef, speakersRef, transparent = false, partnersRef }) => {
+export const DevHeader = ({
+  agendaRef,
+  speakersRef,
+  transparent = false,
+  partnersRef,
+  contactRef,
+}) => {
   const scrollTo = ref => {
     if (ref && ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -33,19 +39,19 @@ export const DevHeader = ({ agendaRef, speakersRef, transparent = false, partner
         <Nav className="align-items-center">
           <Nav.Link
             className="text-white f-18 text-bold"
-            onClick={() => scrollTo(agendaRef)}
+            onClick={() => transparent ? navigate("/") : scrollTo(agendaRef)}
           >
             <SecondaryButton>AGENDA</SecondaryButton>
           </Nav.Link>
           <Nav.Link
             className="text-white f-18 text-bold"
-            onClick={() => scrollTo(speakersRef)}
+            onClick={() => transparent ? navigate("/") :  scrollTo(speakersRef)}
           >
             <SecondaryButton>SPEAKERS</SecondaryButton>
           </Nav.Link>
           <Nav.Link
             className="text-white f-18 text-bold"
-            onClick={() => scrollTo(partnersRef)}
+            onClick={() => transparent ? navigate("/") : scrollTo(partnersRef)}
           >
             <SecondaryButton>PARTNERS</SecondaryButton>
           </Nav.Link>
@@ -56,10 +62,18 @@ export const DevHeader = ({ agendaRef, speakersRef, transparent = false, partner
           </Link>
         </Navbar.Brand>
         <Nav className="align-items-center">
-        <Nav.Link  className="text-white f-18 text-bold" >
-            <SecondaryButton onClick={() => navigate('/devsummit-2019')}> DevSummit 2019</SecondaryButton>
+          <Nav.Link className="text-white f-18 text-bold">
+            <SecondaryButton onClick={() => navigate("/devsummit-2019")}>
+              {" "}
+              DevSummit 2019
+            </SecondaryButton>
           </Nav.Link>
-          <Nav.Link  className="text-white f-18 text-bold">
+          <Nav.Link
+            className="text-white f-18 text-bold"
+            onClick={() =>
+              transparent ? navigate("/") : scrollTo(contactRef)
+            }
+          >
             <SecondaryButton>Contact Us</SecondaryButton>
           </Nav.Link>
           <Nav.Link>

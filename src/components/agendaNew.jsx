@@ -1,6 +1,7 @@
 import React from "react"
 import { events } from "./data.js"
 import "../styles/agenda.scss"
+import { Tooltip, OverlayTrigger } from "react-bootstrap"
 export const AgendaNew = ({ agendaRef }) => {
   const headers = Object.keys(events)
   let implementedData = {}
@@ -42,26 +43,33 @@ export const AgendaNew = ({ agendaRef }) => {
               return (
                 <tr
                   key={"implementedDataTimeKey" + index}
-                  className="flex-row tableRow"
+                  className="flex-row tableRow text-14"
                 >
                   {headers.map((header, index2) => (
                     <td className="tableNode" key={"node" + index2}>
                       {dt[header] &&
                         dt[header].map((node, index3) => (
+                          <OverlayTrigger
+                            key={"nodeItem" + index3}
+                          placement={"top"}
+                          overlay={
+                            <Tooltip id={`tooltip-top`}>
+                            <strong>{node.description}</strong>.
+                            </Tooltip>
+                          }
+                        >
                           <div
                             className={`nodeItem ${
                               index3 != dt[header].length - 1
                                 ? "nodeItemBorder"
                                 : ""
                             }`}
-                            key={"nodeItem" + index3}
-                            data-bs-toggle="tooltip"
-                            data-bs-placement="top"
-                            title={node.description}
                           >
                             <div className="time">{node.startTime}</div>
                             <div className="name">{node.name}</div>
                           </div>
+                        </OverlayTrigger>
+                          
                         ))}
                     </td>
                   ))}

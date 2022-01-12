@@ -7,7 +7,7 @@ import { Col, Image } from "react-bootstrap"
 import "../styles/speakers.scss"
 import { speaker } from "./data"
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
-export const Profile = ({ picture, firstName, lastName, role, work }) => {
+const Profile = ({ picture, firstName, lastName, role, work }) => {
   return (
     <Card className="cardContainer w-100">
       <Card.Img
@@ -31,8 +31,8 @@ export const Speakers = ({ speakersRef }) => {
 
   return (
     <div className="cont relative" ref={speakersRef}>
-      <div className="topCircle cc d-none d-md-block" />
-      <div className="bottomCircle cc d-none d-md-block" />
+      {/* <div className="topCircle cc d-none d-md-block" />
+      <div className="bottomCircle cc d-none d-md-block" /> */}
       <div className="col mx-8p onTop">
         <div className="justify-start wp100">
           <p className="text-header text-bold">Our Speakers_</p>

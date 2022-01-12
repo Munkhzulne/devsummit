@@ -30,7 +30,12 @@ export const Hero = () => {
         </Col>
         <Col xs={12} md="6" className="d-flex align-items-center my-5 mb-1">
           <div>
+            
             <div id="scene">
+            {/* <div className="position-relative">
+              <div className="circle-man1"></div>
+              <div className="circle-man2"></div>
+            </div> */}
               <div data-depth="0.3" className="position-relative">
                 <StaticImage
                   src="../images/man.svg"
