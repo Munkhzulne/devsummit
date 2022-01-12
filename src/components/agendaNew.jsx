@@ -28,15 +28,18 @@ export const AgendaNew = ({ agendaRef }) => {
       </div>
       <div className="w-100 mx-8p tableBigContainer">
         <table className="tableContainer">
-          <thead className="flex-row mb-5">
-            {headers.map((header, index) => {
-              return (
-                <th className="text-26 tableHeader" key={"header" + index}>
-                  {header}
-                </th>
-              )
-            })}
+          <thead>
+            <tr className="flex-row mb-5">
+              {headers.map((header, index) => {
+                return (
+                  <th className="text-26 tableHeader" key={"header" + index}>
+                    {header}
+                  </th>
+                )
+              })}
+            </tr>
           </thead>
+
           <tbody className="w-100">
             {implementedDataTimeKey.map((timeKey, index) => {
               const dt = implementedData[timeKey]

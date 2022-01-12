@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Row, Col, Container, Stack } from "react-bootstrap"
+import { Row, Col, Stack } from "react-bootstrap"
 export const WhatIsSummit = () => {
   return (
     <Stack gap="1">

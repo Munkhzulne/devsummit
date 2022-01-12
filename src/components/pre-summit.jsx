@@ -65,19 +65,20 @@ export const PreviousSummit = () => {
           {" "}
           <Stack gap={5}>
             <div>
-              <StaticImage src="../images/logoDS19.png" />
+              <StaticImage src="../images/logoDS19.png" alt="logoDS19" />
             </div>
             <Stack gap={3}>
               <div className="text-header text-bold w-100">Speakers_</div>
               <div className="d-flex flex-row flex-wrap">
                 {data.map((person, ind) => (
                   <Col
+                    key={ind}
                     sm="6"
                     md="3"
                     xs="12"
                     className="justify-content-center d-flex"
                   >
-                    <Profile {...person} key={ind} />
+                    <Profile {...person} />
                   </Col>
                 ))}
               </div>
@@ -87,16 +88,16 @@ export const PreviousSummit = () => {
               <div className="text-header text-bold w-100">Gallery</div>
               <Row className="w-100 justify-content-center align-items-center">
                 <Col sm={6} xs="12" className="py-2 ">
-                  <StaticImage src={`../images/1.jpeg`} />
+                  <StaticImage src={`../images/1.jpeg`} alt="images1" />
                 </Col>
                 <Col sm={6} xs="12" className="py-2">
-                  <StaticImage src={`../images/2.jpeg`} />
+                  <StaticImage src={`../images/2.jpeg`} alt="images2" />
                 </Col>
                 <Col sm={6} xs="12" className="py-2">
-                  <StaticImage src={`../images/3.jpeg`} />
+                  <StaticImage src={`../images/3.jpeg`} alt="images3" />
                 </Col>
                 <Col sm={6} xs="12" className="py-2">
-                  <StaticImage src={`../images/4.jpeg`} />
+                  <StaticImage src={`../images/4.jpeg`} alt="images4" />
                 </Col>
               </Row>
               <div className="d-flex align-items-center justify-content-center">

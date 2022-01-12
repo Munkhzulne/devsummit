@@ -1,9 +1,8 @@
 import { Link, navigate } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { Navbar, Container, Nav } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 import { PrimaryButton, SecondaryButton } from "./buttons"
-import { Logo } from "./logo"
 
 export const DevHeader = ({
   agendaRef,
@@ -28,7 +27,7 @@ export const DevHeader = ({
       <Navbar.Brand href="#home" className="d-lg-none">
         {/* <Logo/> */}
         <Link to="/">
-          <StaticImage src="../images/logo-m.png" />
+          <StaticImage src="../images/logo-m.png" alt="medium-logo" />
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -58,7 +57,7 @@ export const DevHeader = ({
         </Nav>
         <Navbar.Brand className="d-lg-block d-none py-3">
           <Link to="/">
-            <StaticImage src="../images/logo.png" />
+            <StaticImage src="../images/logo.png" alt="logo" />
           </Link>
         </Navbar.Brand>
         <Nav className="align-items-center">

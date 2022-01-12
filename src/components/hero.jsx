@@ -1,8 +1,7 @@
 import * as React from "react"
-import { Container, Row, Col, Stack } from "react-bootstrap"
+import { Row, Col, Stack } from "react-bootstrap"
 import { PrimaryButton, SecondaryButton } from "../components/buttons"
 import Parallax from "parallax-js"
-import a from "../images/man.svg"
 import { useEffect } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 export const Hero = () => {
@@ -16,7 +15,8 @@ export const Hero = () => {
         <Col md={{ offset: 1, span: 5 }}>
           <Stack gap={5} className="position-relative">
             <div className="text-huge text-bold">
-            The biggest tech conference in Mongolia for developers by developers_
+              The biggest tech conference in Mongolia for developers by
+              developers_
             </div>
             <div className="text-20 text-bold">
               January 22, 2022 <br />
@@ -38,6 +38,7 @@ export const Hero = () => {
             </div> */}
               <div data-depth="0.3" className="position-relative">
                 <StaticImage
+                  alt="hero"
                   src="../images/man.svg"
                   style={{ minWidth: "100%" }}
                 />
