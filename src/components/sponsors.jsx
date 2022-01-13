@@ -49,20 +49,20 @@ export const Sponsors = ({ partnersRef }) => {
           >
             Partners_
             <div className="d-flex flex-row align-items-center justify-content-between flex-wrap">
-              <div style={{width: "200px"}} className="px-2">
-                <StaticImage src="../images/mmusic.png" />
+              <div style={{ width: "200px" }} className="px-2">
+                <StaticImage src="../images/mmusic.png" alt="mmusic." />
               </div>
-              <div style={{width: "200px"}} className="px-2">
-                <StaticImage src="../images/pack.png" />
+              <div style={{ width: "200px" }} className="px-2">
+                <StaticImage src="../images/pack.png" alt="pack" />
               </div>
-              <div style={{width: "200px"}} className="px-2">
-                <StaticImage src="../images/scc.png" />
+              <div style={{ width: "200px" }} className="px-2">
+                <StaticImage src="../images/scc.png" alt="scc" />
               </div>
-              <div style={{width: "200px"}} className="px-2">
-                <StaticImage src="../images/nest.png" />
+              <div style={{ width: "200px" }} className="px-2">
+                <StaticImage src="../images/nest.png" alt="nest" />
               </div>
-              <div style={{width: "400px"}} className="px-2">
-                <StaticImage src="../images/wtm.png" />
+              <div style={{ width: "400px" }} className="px-2">
+                <StaticImage src="../images/wtm.png" alt="wtm" />
               </div>
             </div>
           </Col>

@@ -5,12 +5,10 @@ import { PrimaryButton, SecondaryButton } from "./buttons"
 import { Logo } from "./logo"
 
 const AnyReactComponent = ({ text }) => (
-  <div
-    className="d-flex justify-content-center flex-column align-items-center"
-  >
+  <div className="d-flex justify-content-center flex-column align-items-center">
     <div
       className="bg-primary py-3 px-1"
-      style={{ whiteSpace: "nowrap", width: '235px', textAlign: 'center'}}
+      style={{ whiteSpace: "nowrap", width: "235px", textAlign: "center" }}
     >
       {text}
     </div>
@@ -30,10 +28,7 @@ export const Where = () => {
       <div className="mx-8p dotoodCont">
         <div className="flex-row dotoodCont">
           <div className="leftCon">
-            <div className="text-header">
-              Where 
-              when?_
-            </div>
+            <div className="text-header">Where when?_</div>
             <div className="text-20 mt-3">
               January 22, 2022
               <br />
@@ -48,7 +43,7 @@ export const Where = () => {
           <div className="mapContainer">
             <GoogleMapReact
               bootstrapURLKeys={{
-                key: "",
+                key: process.env.GOOGLE_MAP_API_KEY,
               }}
               center={defaultProps.center}
               zoom={defaultProps.zoom}
@@ -64,7 +59,7 @@ export const Where = () => {
               yesIWantToUseGoogleMapApiInternals
             >
               <AnyReactComponent
-                lat={47.90410}
+                lat={47.9041}
                 lng={106.92235}
                 text="The Corporate Hotel and Convention Centre"
               />
