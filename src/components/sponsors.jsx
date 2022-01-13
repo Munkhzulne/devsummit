@@ -58,6 +58,12 @@ export const Sponsors = ({ partnersRef }) => {
               <div style={{width: "200px"}} className="px-2">
                 <StaticImage src="../images/scc.png" />
               </div>
+              <div style={{width: "200px"}} className="px-2">
+                <StaticImage src="../images/nest.png" />
+              </div>
+              <div style={{width: "400px"}} className="px-2">
+                <StaticImage src="../images/wtm.png" />
+              </div>
             </div>
           </Col>
         </Row>

@@ -91,13 +91,6 @@ export const speaker = [
         work: "DigIT LLC",
         picture: "Otgonbayar Molom",
       },
-      // {
-      //   firstName: "Dulgoon",
-      //   lastName: "H",
-      //   role: "Founder / Sr UX Designer",
-      //   work: "User Experience Academy / Mezorn Technology",
-      //   picture: "misheel",
-      // },
     ],
   },
   {
@@ -185,13 +178,13 @@ export const speaker = [
         work: "Input Output Global",
         picture: "Tuvshintsenguun_Erdenejargal",
       },
-      // {
-      //   firstName: "Ganbayar",
-      //   lastName: "Uuganbayar",
-      //   role: "Cyber security researcher",
-      //   work: "University of Oxford",
-      //   picture: "Munkh-Od_Ganzorigt",
-      // },
+      {
+        firstName: "Ganbayar",
+        lastName: "Uuganbayar",
+        role: "Cyber security researcher",
+        work: "University of Oxford",
+        picture: "ganbayar",
+      },
       {
         firstName: "Tengis",
         lastName: "Sukhee",
@@ -232,7 +225,7 @@ export const speaker = [
         lastName: "Batbold",
         role: "Founder",
         work: "Beelog Tech",
-        picture: "Batmunkh_Enkhtaivan",
+        picture: "Davgasuren_Batbold",
       },
       {
         firstName: "Batmunkh",
@@ -276,13 +269,13 @@ export const speaker = [
         work: "TomYo EdTech",
         picture: "Erkhembayar_Gantulga",
       },
-      // {
-      //   firstName: "Monhoo",
-      //   lastName: "Batraa",
-      //   role: "Indie Game Developer",
-      //   work: "Alpha games",
-      //   picture: "Erkhembayar_Gantulga",
-      // },
+      {
+        firstName: "Monhoo",
+        lastName: "Batraa",
+        role: "Indie Game Developer",
+        work: "Alpha games",
+        picture: "monhoo",
+      },
       {
         firstName: "Batzorig",
         lastName: "Byambabaatar",
@@ -677,12 +670,12 @@ export const events = {
       startTime: "13:40",
     },
     {
-      name: "• Ganbayar, Cyber security researcher  @ University of Oxford \n • Tengis, Information security advisor \n • Bilguun, CTO@ Nomadays LLC",
+      name: "• Dulmandakh, Founder / CEO @ Khuur Music Group LLC \n• Lkhavuujal, Director of DevOps Division @ Grapecity Mongolia LLC",
       description: "Ask Me Anything",
       startTime: "14:40",
     },
     {
-      name: "• Dulmandakh, Founder / CEO @ Khuur Music Group LLC \n• Lkhavuujal, Director of DevOps Division @ Grapecity Mongolia LLC",
+      name: "• Ganbayar, Cyber security researcher  @ University of Oxford \n • Tengis, Information security advisor \n • Bilguun, CTO@ Nomadays LLC",
       description: "Ask Me Anything",
       startTime: "15:40",
     },

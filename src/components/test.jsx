@@ -176,7 +176,7 @@ export const Test = ({ agendaRef }) => {
                 <AgendaItem
                   style={{ top: "1970px", position: "absolute" }}
                   item={{
-                    name: "• Ganbayar, Cyber security researcher  @ University of Oxford \n • Tengis, Information security advisor \n • Bilguun, CTO@ Nomadays LLC",
+                    name: "• Dulmandakh, Founder / CEO @ Khuur Music Group LLC \n• Lkhavuujal, Director of DevOps Division @ Grapecity Mongolia LLC",
                     description: "",
                     startTime: "14:40",
                   }}
@@ -185,7 +185,7 @@ export const Test = ({ agendaRef }) => {
                 <AgendaItem
                   style={{ top: "2248px", position: "absolute" }}
                   item={{
-                    name: "• Dulmandakh, Founder / CEO @ Khuur Music Group LLC \n• Lkhavuujal, Director of DevOps Division @ Grapecity Mongolia LLC",
+                    name: "• Ganbayar, Cyber security researcher  @ University of Oxford \n • Tengis, Information security advisor \n • Bilguun, CTO@ Nomadays LLC",
                     description: "",
                     startTime: "15:40",
                   }}
