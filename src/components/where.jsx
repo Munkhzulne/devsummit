@@ -36,7 +36,7 @@ export const Where = () => {
             </div>
             <div className="mt-40 flex-row">
               <PrimaryButton>Buy Ticket</PrimaryButton>
-              <SecondaryButton>Get directions</SecondaryButton>
+              <SecondaryButton onClick={() => window.open("https://tinyurl.com/2fzj3cwc", '_blank').focus()}>Get directions</SecondaryButton>
             </div>
           </div>
 

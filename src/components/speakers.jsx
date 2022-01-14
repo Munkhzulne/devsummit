@@ -31,6 +31,7 @@ export const Speakers = ({ speakersRef }) => {
     "Women in Tech_",
     "Panel Discussions_",
     "Workshops_",
+    "Our Team_"
   ]
 
   return (

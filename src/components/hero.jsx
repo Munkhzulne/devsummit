@@ -24,7 +24,7 @@ export const Hero = () => {
             </div>
             <div className="d-flex flex-row">
               <PrimaryButton> Buy Ticket</PrimaryButton>
-              <SecondaryButton>{`For Partnership >`}</SecondaryButton>
+              <SecondaryButton onClick ={() =>  window.open("https://tinyurl.com/5x4jwuw5", '_blank').focus()}>{`For Partnership >`}</SecondaryButton>
             </div>
           </Stack>
         </Col>

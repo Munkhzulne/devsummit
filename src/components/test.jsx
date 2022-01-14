@@ -77,7 +77,7 @@ export const Test = ({ agendaRef }) => {
               <div className="d-flex flex-column position-relative d-sm-block d-md-none">
                 {events.w.map(item => (
                   <div className="mb-2">
-                    <AgendaItem item={item} style={{ height: "40px" }} />
+                    <AgendaItem item={item} />
                   </div>
                 ))}
               </div>
@@ -103,7 +103,7 @@ export const Test = ({ agendaRef }) => {
                 <AgendaItem
                   style={{ top: "1139px", position: "absolute" }}
                   item={{
-                    name: "• Deglee, Graphic Designer @Central TV \n • Bolortuya, Data Quality Analyst @Rio Tinto \n• Misheel, Instructor @Nest Academy \n• Anu-Ujin, Senior Front-end developer @Erxes Inc",
+                    name: "• Deglee, Graphic Designer @Central TV \n • Bolortuya, Data Quality Analyst @Rio Tinto \n• Misheel, Student @Nest Academy \n• Anu-Ujin, Senior Front-end developer @Erxes Inc",
                     description: "Panel: Career & Job ",
                     startTime: "11:40",
                   }}
@@ -126,6 +126,14 @@ export const Test = ({ agendaRef }) => {
                     startTime: "13:50",
                   }}
                 />
+                <AgendaItem
+                  style={{ top: "1799px", position: "absolute" }}
+                  item={{
+                    name: "• Enkhtuya, Мэдээллийн технологийн төвийн захирал/Тэргүүлэх аудитор @Үндэсний Аудитын Газар\n• Otgonbayar, CEO/Founder @DigIT LLC",
+                    description: "Panel Discussion",
+                    startTime: "14:20",
+                  }}
+                />
 
                 <AgendaItem
                   style={{ top: "2125px", position: "absolute" }}
@@ -136,6 +144,24 @@ export const Test = ({ agendaRef }) => {
                     startTime: "15:30",
                   }}
                 />
+                <AgendaItem
+                  style={{ top: "2655px", position: "absolute" }}
+                  item={{
+                    name: "• Enkhjargal, CEO/Founder @tomyo.io \n• Naran, Co-founder/COO @Erxes Inc",
+                    description:
+                      "Panel: Global Fundraising",
+                    startTime: "16:55",
+                  }}
+                />
+                {/* <AgendaItem
+                  style={{ top: "2835px", position: "absolute" }}
+                  item={{
+                    name: "Biligjargal, Marketing Manager @Mmusic LLC",
+                    description:
+                      "",
+                    startTime: "18:00",
+                  }}
+                /> */}
               </div>
             </Col>
             <Col sm="12" md="3">
@@ -191,7 +217,7 @@ export const Test = ({ agendaRef }) => {
                   }}
                 />
                 <AgendaItem
-                  style={{ top: "2528px", position: "absolute" }}
+                  style={{ top: "2598px", position: "absolute" }}
                   item={{
                     name: "• Monhoo, Indie Game Dev Developer @ Alpha Games \n• Batzorig, PM / VR Dev @ Digital Solutions Mongolia \n• Namuun, PM / VR Dev @ Digital Solutions Mongolia",
                     description: "",
@@ -204,7 +230,57 @@ export const Test = ({ agendaRef }) => {
               <div className="text-26 mb-3 text-center text-bold">
                 Workshops_
               </div>
-              <div className="d-flex flex-col position-relative"></div>
+              <div className="d-flex flex-column position-relative d-sm-block d-md-none">
+                {events.wo.map(item => (
+                  <div className="mb-2">
+                    <AgendaItem item={item} />
+                  </div>
+                ))}
+              </div>
+              <div className="d-flex flex-column position-relative d-none d-md-block">
+                <AgendaItem
+                  style={{ top: "720px", position: "absolute" }}
+                  item={{
+                    name: "Byambadorj, FullStack Engineer @Rendered AI",
+      description: "AWS Best practices",
+      startTime: "10:20",
+                  }}
+                />
+                <AgendaItem
+                  style={{ top: "2258px", position: "absolute" }}
+                  item={{
+                    name: "Dagvasumberel, Senior Hardware Engineer @Andorean",
+                    description: "From the IoT to Metaverse",
+                    startTime: "15:50",
+                  }}
+                />
+                {/* <AgendaItem
+                  style={{ top: "2768px", position: "absolute" }}
+                  item={{
+                    name: "Mmusic entertainment",
+                    description: "Mmusic entertainment",
+                    startTime: "17:40",
+                  }}
+                /> */}
+
+                <AgendaItem
+                  style={{ top: "2968px", position: "absolute" }}
+                  item={{
+                    name: "Capitron Bank",
+                    description: "On cyber security",
+                    startTime: "18:20",
+                  }}
+                />
+
+                <AgendaItem
+                  style={{ top: "3108px", position: "absolute" }}
+                  item={{
+                    name: "• Sarangerel, Lead Data Scientist \n • Amarsaikhan, ML engineer @And Systems Tech LLC",
+      description: "AutoML - Niko Scoring ",
+      startTime: "19:00",
+                  }}
+                />
+              </div>
             </Col>
           </Row>
         </div>
