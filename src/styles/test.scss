@@ -1,0 +1,12 @@
+.agendaRight {
+  padding-right: 48px;
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .agendaRight {
+    padding-right: 12px;
+  }
+  .agendaLeft {
+    padding-left: 12px !important;
+  }
+}

@@ -48,21 +48,35 @@ export const Sponsors = ({ partnersRef }) => {
             className="text-bold text-header text-dark justify-content-around d-flex flex-column"
           >
             Partners_
-            <div className="d-flex flex-row align-items-center justify-content-around  flex-wrap">
-              <div style={{ width: "200px" }} className="px-2 me-4">
+            <div className="d-flex flex-row align-items-center justify-content-between flex-wrap">
+              <div
+                style={{ width: "200px" }}
+                className="px-2 my-4 sponsorsItem"
+              >
+                <StaticImage src="../images/mmusic.png" alt="mmusic." />
+              </div>
+              <div
+                style={{ width: "200px" }}
+                className="px-2 my-4 sponsorsItem"
+              >
                 <StaticImage src="../images/pack.png" alt="pack" />
               </div>
-
-              <div style={{ width: "200px" }} className="px-2 me-4">
-                <StaticImage src="../images/ando.jpg" alt="ando" />
-              </div>
-              <div style={{ width: "200px" }} className="px-2 me-4">
+              <div
+                style={{ width: "200px" }}
+                className="px-2 my-4 sponsorsItem"
+              >
                 <StaticImage src="../images/scc.png" alt="scc" />
               </div>
-              <div style={{ width: "200px" }} className="px-2 me-4">
+              <div
+                style={{ width: "200px" }}
+                className="px-2 my-4 sponsorsItem"
+              >
                 <StaticImage src="../images/nest.png" alt="nest" />
               </div>
-              <div style={{ width: "400px" }} className="px-2 me-4">
+              <div
+                style={{ width: "400px" }}
+                className="px-2 my-4 sponsorsItem"
+              >
                 <StaticImage src="../images/wtm.png" alt="wtm" />
               </div>
             </div>

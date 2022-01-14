@@ -200,6 +200,27 @@ button {
     left: 41vw;
   }
 }
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border: none !important;
+  background-color: transparent;
+  transition: 0.5s;
+  &:hover {
+    opacity: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sponsorsItem {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    padding-left: 12px !important;
+  }
+}
 @media screen and (min-width: 1200px) {
   .cont {
     padding: 7vw !important;
@@ -336,4 +357,5 @@ tr {
     transform: translate3d(-100%, 0, 0);
   }
 }
+
 @import "~bootstrap/scss/bootstrap";

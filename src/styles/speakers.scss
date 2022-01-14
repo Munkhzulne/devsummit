@@ -21,6 +21,7 @@
   box-sizing: border-box;
   border-radius: 0 !important;
   margin-right: 24px;
+  margin-bottom: 24px !important;
   color: #ffffff;
   font-weight: bold;
   z-index: 2 !important;
@@ -72,7 +73,6 @@
 .card-body {
   padding: 8px 0px;
 }
-
 
 .topCircle {
   width: 19vw;
@@ -138,5 +138,14 @@
   .cardContainer {
     margin-right: 0;
     margin-bottom: 24px;
+  }
+  .onTop {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .tabStyle {
+    margin-bottom: 0px !important;
   }
 }

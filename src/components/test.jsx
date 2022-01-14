@@ -9,7 +9,7 @@ import {
 } from "react-bootstrap"
 import Timetable from "react-timetable-events"
 import { events } from "./data"
-
+import "../styles/test.scss"
 const AgendaItem = ({ item, ...props }) => {
   return (
     <div
@@ -46,8 +46,8 @@ export const Test = ({ agendaRef }) => {
     <div className="bg-secondary mt-1 px-2 py-4" ref={agendaRef}>
       <div className="w-100 px-1">
         <div className="d-flex flex-row justify-content-between align-items-center py-4">
-          <div className="text-header text-bold ps-5">Agenda_</div>
-          <div className="text-18 text-decoration-underline">{`For Inquiries & Partnership >`}</div>
+          <div className="text-header text-bold ps-5 agendaLeft">Agenda_</div>
+          <div className="text-18 text-decoration-underline agendaRight">{`For Inquiries & Partnership >`}</div>
         </div>
         <div class="view">
           <Row>
