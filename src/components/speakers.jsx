@@ -28,7 +28,7 @@ export const Speakers = ({ speakersRef }) => {
   const [key, setKey] = useState("Tech Talks_")
   const titles = [
     "Tech Talks_",
-    "Women in Tech_",
+    "Women Techmakers_",
     "Panel Discussions_",
     "Workshops_",
     "Our Team_"

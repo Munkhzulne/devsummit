@@ -28,7 +28,7 @@ export const speaker = [
         lastName: "Delgerbat",
         role: "Former general manager",
         work: "Unread",
-        picture: "baysa"
+        picture: "baysa",
       },
       {
         firstName: "Achmaa",
@@ -75,28 +75,21 @@ export const speaker = [
     ],
   },
   {
-    title: "Women in Tech_",
+    title: "Women Techmakers_",
     persons: [
-      {
-        firstName: "Oyun-Erdene",
-        lastName: "Namsrai",
-        role: "Professor",
-        work: "National University of Mongolia ",
-        picture: "Oyun-erdene",
-      },
-      {
-        firstName: "Bayarmaa",
-        lastName: "Gantumur",
-        role: "Business Analyst / Project Manager",
-        work: "Datacare LLC",
-        picture: "Bayarmaa Gantumur",
-      },
       {
         firstName: "Urandelger",
         lastName: "Ochirkhuyag",
         role: "CTO",
         work: "SmartData",
         picture: "urandelger",
+      },
+      {
+        firstName: "Enkhjin",
+        lastName: "Otgonbayar",
+        role: "CEO",
+        work: "tomyo.io",
+        picture: "Enkhjin",
       },
       {
         firstName: "Naran",
@@ -106,31 +99,26 @@ export const speaker = [
         picture: "Naran Batjargal",
       },
       {
-        firstName: "Yesui",
-        lastName: "Batsukh",
-        role: "Academic manager / Project manager",
-        work: "Nest Academy / Nest Solutions",
-        picture: "Yesui_Batsukh",
-      },
-    ],
-  },
-  {
-    title: "Panel Discussions_",
-    persons: [
-      {
         firstName: "Bolortuya",
         lastName: "Bayantur",
         role: "Data Quality Analyst",
         work: "Rio Tinto",
         picture: "Bolortuya_Bayantur",
       },
-      // {
-      //   firstName: "Deglee",
-      //   lastName: "Ganzorig",
-      //   role: "Graphic designer",
-      //   work: "Central TV",
-      //   picture: "misheel",
-      // },
+      {
+        firstName: "Enerel",
+        lastName: "Tumenbayar",
+        role: "CFO",
+        work: "TechPack LLC",
+        picture: "EnerelSpeaker",
+      },
+      {
+        firstName: "Deglee",
+        lastName: "Ganzorig",
+        role: "Graphic designer",
+        work: "Central TV",
+        picture: "Deglee",
+      },
       {
         firstName: "Misheel",
         lastName: "Batbuyan",
@@ -155,16 +143,146 @@ export const speaker = [
       {
         firstName: "Enkhtuya",
         lastName: "Dandar",
-        role: "Мэдээллийн технологийн төвийн захирал/Тэргүүлэх аудитор",
-        work: "Үндэсний Аудитын Газар",
+        role: "Director/Principal Auditor",
+        work: " Information Technology Center",
         picture: "Enkhtuya",
       },
       {
-        firstName: "Otgonbayar",
-        lastName: "Molom",
-        role: "CEO/Founder",
-        work: "DigIT LLC",
-        picture: "Otgonbayar Molom",
+        firstName: "Uzmee",
+        lastName: "Battsagaan",
+        role: "Business Analyst",
+        work: "Interactive LLC",
+        picture: "Uzmee",
+      },
+      {
+        firstName: "Suvdaa",
+        lastName: "Batsuuri",
+        role: "Associate Professor",
+        work: "National University of Mongolia",
+        picture: "Suvdaa",
+      },
+      {
+        firstName: "Tuvshinzaya",
+        lastName: "Erdenebat",
+        role: "Guest moderator/ UX Designer ",
+        work: "DevSummit/ MPlus LLc",
+        picture: "Tuvshinzaya",
+      }, {
+        firstName: "Dulgoonbayar",
+        lastName: "Mungunzagas",
+        role: "Guest moderator/ Founder/ Sr UX Designer",
+        work: "DevSummit/ UX Academy/ Mezorn Technology",
+        picture: "Dulgoon",
+      },
+      {
+        firstName: "Munkhtsetseg",
+        lastName: "Baasandorj",
+        role: "CEO",
+        work: "GrapeCity Mongolia LLC",
+        picture: "Munhtsetseg",
+      },
+      {
+        firstName: "Otgonjargal",
+        lastName: "Myagmar",
+        role: "Project Manager",
+        work: "Datacare LLC",
+        picture: "Otgoo",
+      },
+    ],
+  },
+  {
+    title: "Panel Discussions_",
+    persons: [
+      {
+        firstName: "Munkhtsetseg",
+        lastName: "Baasandorj",
+        role: "CEO",
+        work: "GrapeCity Mongolia LLC",
+        picture: "Munhtsetseg",
+      },
+      {
+        firstName: "Munkhjargal",
+        lastName: "N",
+        role: "Digital bank director",
+        work: "Capitron bank",
+        picture: "Munkhjargal",
+      },
+      {
+        firstName: "Tulga",
+        lastName: "Gandavaa",
+        role: "Founder",
+        work: "CallPro, LIME",
+        picture: "Tulga",
+      },
+      {
+        firstName: "Erdenetuya",
+        lastName: "Chuluunbaatar",
+        role: "COO",
+        work: "Andorean",
+        picture: "Erdenetuya",
+      },
+      {
+        firstName: "Enkhjin",
+        lastName: "Otgonbayar",
+        role: "CEO",
+        work: "tomyo.io",
+        picture: "Enkhjin",
+      },
+      {
+        firstName: "Naran",
+        lastName: "Batjargal",
+        role: "Co-founder/COO",
+        work: "Erxes Inc",
+        picture: "Naran Batjargal",
+      },
+      {
+        firstName: "Munkhdalai",
+        lastName: "Batjargal",
+        role: "CEO",
+        work: "Nito",
+        picture: "Munhdalai",
+      },
+      {
+        firstName: "Bolortuya",
+        lastName: "Bayantur",
+        role: "Data Quality Analyst",
+        work: "Rio Tinto",
+        picture: "Bolortuya_Bayantur",
+      },
+      {
+        firstName: "Deglee",
+        lastName: "Ganzorig",
+        role: "Graphic designer",
+        work: "Central TV",
+        picture: "Deglee",
+      },
+      {
+        firstName: "Misheel",
+        lastName: "Batbuyan",
+        role: "Student",
+        work: "Nest Academy",
+        picture: "misheel",
+      },
+      {
+        firstName: "Anu-Ujin",
+        lastName: "Bat-Ulzii",
+        role: "Sr Front-end developer",
+        work: "erxes",
+        picture: "Anu-Ujin",
+      },
+      {
+        firstName: "Eja",
+        lastName: "Batbold",
+        role: "",
+        work: "Tomyo edtech",
+        picture: "Eja Batbold",
+      },
+      {
+        firstName: "Enkhtuya",
+        lastName: "Dandar",
+        role: "Director/Principal Auditor",
+        work: " Information Technology Center",
+        picture: "Enkhtuya",
       },
     ],
   },
@@ -186,12 +304,35 @@ export const speaker = [
         picture: "Amarsaikhan",
       },
       {
-        firstName: "Byambadorj",
+        firstName: "Amin-Erdene",
         lastName: "",
-        role: "FullStack Engineer",
-        work: "Rendered AI",
-        picture: "Byambadorj",
+        role: "Art Director",
+        work: "MetaMori NFT",
+        picture: "Amin-erdene",
       },
+
+      {
+        firstName: "Tushigt-Erdene",
+        lastName: "",
+        role: "CIO",
+        work: "MetaMori NFT",
+        picture: "Tushigt-erdene",
+      },
+
+      {
+        firstName: "Tugsjin",
+        lastName: "",
+        role: "CTO",
+        work: "MetaMori NFT",
+        picture: "Tugsjin",
+      },
+      // {
+      //   firstName: "Amartuvshin",
+      //   lastName: "",
+      //   role: "Senior Hardware Engineer",
+      //   work: "Andorean",
+      //   picture: "Amartuvshin",
+      // },
     ],
   },
   {
@@ -212,31 +353,45 @@ export const speaker = [
         picture: "Bill",
       },
       {
-        firstName: "Zolboobayar",
-        lastName: "Gantumur",
-        role: "Tech Lead",
-        work: "Meta Global Inc LLC",
-        picture: "Zolboobayar_Gantumur",
+        firstName: "Erdenezaya",
+        lastName: "Batnasan",
+        role: "Manager of IT Automation Engineering",
+        work: "Khan Bank",
+        picture: "Sarantuya",
+      },
+      {
+        firstName: "Bayasgalan",
+        lastName: "T",
+        role: "Information security administrator",
+        work: "Khan Bank",
+        picture: "Bayasgalan",
+      },
+      {
+        firstName: "Magvanshiirev",
+        lastName: "Janchiv",
+        role: "Manager",
+        work: "Mobifinance BBSB",
+        picture: "Magvanshiirev",
       },
       {
         firstName: "Usukhbayar",
         lastName: "Ganbaatar",
-        role: "Sr Mobile Developer",
+        role: "Head of Mobile Developmen",
         work: "Mezorn",
         picture: "Usukhbayar_Ganbaatar",
       },
       {
-        firstName: "Gansoronzon",
-        lastName: "Norovgachil",
-        role: "Sr Mobile Engineer",
-        work: "Meta / Facebook",
-        picture: "Gansoronzon_Norovgachil",
+        firstName: "Buyantugs",
+        lastName: "Luvsankhuu",
+        role: "Director of Product Development Department",
+        work: "Mobicom",
+        picture: "Buyantugs",
       },
       {
         firstName: "Anu",
         lastName: "Otgonjargal",
         role: "Front-end Developer",
-        work: "Steppelink LLC",
+        work: "Meta Mori  LLC",
         picture: "Anu Otonjargal",
       },
       {
@@ -245,13 +400,6 @@ export const speaker = [
         role: "UX / UI designer",
         work: "And Systems Tech",
         picture: "ariuna",
-      },
-      {
-        firstName: "Tuvshintur",
-        lastName: "Tserendorj",
-        role: "Founder",
-        work: "KMP",
-        picture: "Tuvshintur_Tserendorj",
       },
       {
         topic: "Recommendation System",
@@ -281,6 +429,20 @@ export const speaker = [
         role: "CTO",
         work: "DiverseSolutions",
         picture: "Munkh-Od_Ganzorigt",
+      },
+      {
+        firstName: "Zolboobayar",
+        lastName: "Gantumur",
+        role: "Tech Lead",
+        work: "Meta Global Inc LLC",
+        picture: "Zolboobayar_Gantumur",
+      },
+      {
+        firstName: "Tuguldur",
+        lastName: "Tugsuu",
+        role: "Hardware Engineer",
+        work: "Andorean",
+        picture: "Tuguldur",
       },
       {
         firstName: "Tuvshintsenguun",
@@ -339,13 +501,6 @@ export const speaker = [
         picture: "Davgasuren_Batbold",
       },
       {
-        firstName: "Batmunkh",
-        lastName: "Enkhtaivan",
-        role: "Team Leader",
-        work: "Tenox",
-        picture: "Batmunkh_Enkhtaivan",
-      },
-      {
         firstName: "BatAmar",
         lastName: "Battulga",
         role: "CTO",
@@ -358,13 +513,6 @@ export const speaker = [
         role: "CTO",
         work: "Clinica",
         picture: "Munkh-Abdul_Mikael",
-      },
-      {
-        firstName: "Batbayar",
-        lastName: "Bazarragchaa",
-        role: "CTO",
-        work: "AstVision",
-        picture: "Batbayar_Bazarragchaa",
       },
       {
         firstName: "Matus",
@@ -405,7 +553,7 @@ export const speaker = [
   },
 ]
 export const events = {
-   t: [
+  t: [
     {
       name: "Doors open / morning coffee / check-in",
       description: "Doors open / morning coffee / check-in ",
@@ -426,7 +574,7 @@ export const events = {
     },
     {
       type: "topic",
-      name: "Frontend"
+      name: "Frontend",
     },
     {
       name: "Zolboobayar, Tech Lead @ Meta Global Inc LLC",
@@ -435,29 +583,30 @@ export const events = {
       endTime: "9:20",
     },
     {
-      name: "Usukhbayar,  Sr Mobile Developer @ Mezorn",
+      name: "Usukhbayar, Head of Mobile Developmen @ Mezorn",
       description: "Native to Hybrid, Hybrid development",
       startTime: "9:22",
       endTime: "9:30",
     },
     {
-      name: "Gansoronzon,  Sr Software Engineer @ Facebook / Meta",
-      description: "GraphQL / Mobile",
-      startTime: "9:30",
+      name: "TBD",
+      description: "TBD",
+      startTime: "9:32",
       endTime: "12:00",
     },
     {
-      name: "Anu, Front-end Developer @ Infinite Solutions",
+      name: "Anu, Front-end Developer @Meta Mori  LLC",
       description: "Web Development",
       startTime: "9:50",
       endTime: "14:00",
     },
     {
       name: "Ariunaa, UX / UI designer @ And Systems Tech",
-      description: "Efficiency and optimization of Design System and how it effects consistency of products",
+      description: "Importance of Design System",
       startTime: "10:00",
       endTime: "15:00",
     },
+
     {
       name: "Break",
       description: "Break time :)",
@@ -467,14 +616,15 @@ export const events = {
 
     {
       type: "topic",
-      name: "AI/ML/DS"
+      name: "AI/ML/DS",
     },
     {
-      name: "Tuvshintur, Founder @ KMP",
-      description: "Keeping up with Education with AI",
+      name: "Luvsanbat, Data Scientist @ ITC.GOV",
+      description: "Supervised classification use-case on eBarimt",
       startTime: "10:15",
-      endTime: "17:40",
+      endTime: "17:00",
     },
+
     {
       name: "Tungalag, Data Scientist @ Khan Bank",
       description: "Recommendation System",
@@ -500,14 +650,14 @@ export const events = {
       endTime: "20: 00",
     },
     {
-      name: "Main Sponsor 1 - Key Note",
-      description: "",
+      name: "• Bayasgalan. T, Information security administrator @ Khan Bank \n• Erdenezaya. B, Manager of IT Automation Engineering @ Khan Bank",
+      description: "• 1st part: API Modernization \n • 2nd part: Ensuring Security for digital transformation",
       startTime: "11:13",
       endTime: "20: 00",
     },
     {
       type: "topic",
-      name: "Blockchain"
+      name: "Blockchain",
     },
     {
       name: "Munkh-Od, CTO @ DiverseSolutions",
@@ -522,11 +672,12 @@ export const events = {
 
     {
       type: "topic",
-      name: "Testing"
+      name: "Testing",
     },
     {
       name: "Bilguun, Senior Software Engineer @ Unimedia Solutions",
-      description: "Web app & Browser extension integration test (Selenium WebDriver + Puppeteer)",
+      description:
+        "Web app & Browser extension integration test (Selenium WebDriver + Puppeteer)",
       startTime: "12:11",
     },
     {
@@ -535,13 +686,14 @@ export const events = {
       startTime: "12:27",
     },
     {
-      name: "Main Sponsor 2 - Key Note",
-      description: "",
+      name: "• Bayarmagnai, CTO @ Ard Financial Group \n• Enkhamgalan, CEO @ Diverse Solutions",
+      description:
+        "• 1st part: START-UPS SYNERGY \n• 2nd part: Blockchain and Diverse",
       startTime: "13:10",
     },
     {
       type: "topic",
-      name: "Infrastructure"
+      name: "Infrastructure",
     },
     {
       name: "Dulmandakh, Founder / CEO @ Khuur Music Group LLC",
@@ -550,7 +702,7 @@ export const events = {
     },
     {
       name: "Lkhavuujal, Director of DevOps Division @ Grapecity Mongolia LLC",
-      description: "Structured and centralized logging service, Monitoring your systems and services, Alerting on thresholds, integrations for logging, monitoring, and alerting",
+      description: "Observability: Logging, Alerting, Monitoring",
       startTime: "13:50",
     },
     {
@@ -559,14 +711,14 @@ export const events = {
       startTime: "14:06",
     },
     {
-      name: "Partner Sponsor 1 - Lightning Talk",
-      description: "",
+      name: "Magvanshiirev, Manager @ Mobifinance BBSB",
+      description: "Mobicom - Lightning Talk",
       startTime: "14:13",
     },
 
     {
       type: "topic",
-      name: "Backend"
+      name: "Backend",
     },
     {
       name: "Bilguun, CTO@ Nomadays LLC",
@@ -575,23 +727,24 @@ export const events = {
     },
     {
       type: "topic",
-      name: "Security / Privacy / Compliance"
+      name: "Security / Privacy / Compliance",
     },
 
     {
-      name: "Ganbayar, Cyber security researcher  @ University of Oxford ",
-      description: "Effectiveness of Security Controls",
+      name: "Tengis, Information security advisor ",
+      description:
+        "New Laws / Regulations in Mongolia about PII, Cybersecurity, Opendata",
       startTime: "14:35",
     },
     {
-      name: "Tengis, Information security advisor ",
-      description: "New Laws / Regulations in Mongolia about PII, Cybersecurity, Opendata",
+      name: "Ganbayar, Cyber security researcher  @ University of Oxford ",
+      description: "Effectiveness of Security Controls",
       startTime: "14:53",
     },
-    
+
     {
-      name: "Main Sponsor 3 - Key Note",
-      description: "",
+      name: "• Naranbat. J, CTO @Denode\n• Bill CEO @Denode",
+      description: "AndGlobal - Web3, Crypto, Going Global",
       startTime: "15:11",
     },
     {
@@ -602,7 +755,7 @@ export const events = {
 
     {
       type: "topic",
-      name: "Gaming / AR / VR"
+      name: "Gaming / AR / VR",
     },
     {
       name: "Monhoo, Indie Game Dev Developer @ Alpha Games",
@@ -610,13 +763,13 @@ export const events = {
       startTime: "15:38",
     },
     {
-      name: "Batzorig, PM / VR Dev @ Digital Solutions Mongolia",
-      description: "Integrating with Unity / Unreal engines",
+      name: "Namuun, PM / VR Dev @ Digital Solutions Mongolia",
+      description: "Reliving History in VR",
       startTime: "15:48",
     },
     {
-      name: "Namuun, PM / VR Dev @ Digital Solutions Mongolia",
-      description: "Reliving History in VR",
+      name: "Batzorig, PM / VR Dev @ Digital Solutions Mongolia",
+      description: "Integrating with Unity / Unreal engines",
       startTime: "15:58",
     },
     {
@@ -626,7 +779,7 @@ export const events = {
     },
     {
       name: "Partner Sponsor 2 - Lightning Talk ",
-      description: "",
+      description: "TENTATIVE: Metaverse ",
       startTime: "16:22",
     },
     {
@@ -634,10 +787,15 @@ export const events = {
       description: "Break Time :)",
       startTime: "16:32",
     },
-    
+
     {
       type: "topic",
-      name: "Architecture"
+      name: "Architecture",
+    },
+    {
+      name: "Buyantugs, Director of Product Development Department @ Mobicom",
+      description: "Throttle architecture pattern",
+      startTime: "16:44",
     },
     {
       name: "Davgasuren, Founder @ Beelog Tech",
@@ -645,8 +803,8 @@ export const events = {
       startTime: "16:54",
     },
     {
-      name: "Батмөнх, Team Leader @ Tenox",
-      description: "Dynamic Ads ",
+      name: "TBD",
+      description: "TBD",
       startTime: "17:12",
     },
     {
@@ -661,55 +819,58 @@ export const events = {
     },
     {
       name: "Erkhembayar, CTO @ TomYo EdTech",
-      description: "TomYo.io - is a drag-and-drop app builder for educational content creators",
+      description:
+        "TomYo.io - is a drag-and-drop app builder for educational content creators",
       startTime: "18:06",
     },
     {
-      name: "Batbayar, CTO @ AstVision",
-      description: "Architecting for a nationwide enterprise-grade mobile app. Use case: eMongolia",
+      name: "TBD",
+      description: "TBD",
       startTime: "18:24",
     },
     {
       name: "Matus, Architecture Lead @ AND Global",
-      description: "Stream processing data in real-time using Apache Kafka and Apache Samza",
+      description:
+        "Stream processing data in real-time using Apache Kafka and Apache Samza",
       startTime: "18:42",
     },
     {
-      name: "• Munkhjargal - Digital bank director @Capitron bank \n • Munkhkhishig - CEO @Next Social \n • Enkhjin - Co-Founder, CPO - @Nito",
+      name: "• Munkhjargal - Head of Digital Transformation @Capitron bank\n• Tulga - CEO @CallPro, LIME \n• Munkhdalai - CEO @Nito\n• Erdenetuya - COO @Andorean",
       description: "Panel Discussion by Unread",
       startTime: "19:00",
     },
     {
       name: "CLOSING",
       description: "",
-      startTime: "19:42",
-    }
+      startTime: "19:40",
+    },
   ],
   w: [
     {
-      name: "Bayarmaa, Business Analyst / Project Manager @Datacare LLC",
+      name: "Otgonjargal, Sr Project Manager @Datacare LLC",
       description: "Project Management",
       startTime: "9:30",
       endTime: "11:00",
     },
     {
-      name: "Yesui, Academic manager / Project manager @ Nest Academy / Nest Solutions",
-      description: "NON-TRADITIONAL PATHS INTO TECHNOLOGY CAREERS",
+      name: "Suvdaa, Associate Professor @ National University of Mongolia",
+      description: "Computer Vision in Mongolia: Now and Future",
       startTime: "10:00",
-      endTime: "12:00",
+      endTime: "11:00",
     },
 
     {
       name: "Panel: Career & Job",
-      description: "Deglee, Graphic Designer @Central TV \n Bolortuya, Data Quality Analyst @Rio Tinto \n  Misheel, Student @Nest Academy \n Anu-Ujin, Senior Front-end developer @Erxes Inc",
+      description:
+        "Deglee, Graphic Designer @Central TV \n Bolortuya, Data Quality Analyst @Rio Tinto \n  Misheel, Student @Nest Academy \n Anu-Ujin, Senior Front-end developer @Erxes Inc",
       startTime: "11:40",
       endTime: "20: 00",
     },
     {
-      name: "Oyun-Erdene, Professor @ National University of Mongolia",
-      description: "Industrial Revolution, its importance",
+      name: "Uzmee, Business Analyst @Interactive LLC",
+      description: "Anyone can be a Techmaker",
       startTime: "13:30",
-      endTime: "14:00",
+      endTime: "17:00",
     },
     {
       name: "Naran, Co-founder/COO @Erxes Inc",
@@ -718,8 +879,8 @@ export const events = {
       endTime: "17:00",
     },
     {
-      name: "• Enkhtuya, Мэдээллийн технологийн төвийн захирал/Тэргүүлэх аудитор @Үндэсний Аудитын Газар• Otgonbayar, CEO/Founder @DigIT LLC",
-      description: "Panel Discussion",
+      name: "• Enkhtuya, Director of Information Technology Center/Principal Auditor \n • Munkhtsetseg, CEO @Grapecity LLC \n• Nomin U, Individual ICT Consultant / Red hat instructor @ADB funded project / NUM Cisco Academy",
+      description: "Women leadership in IT",
       startTime: "14:20",
     },
     {
@@ -729,9 +890,14 @@ export const events = {
       endTime: "17:40",
     },
     {
+      name: "Enerel, CFO @TechPack LLC",
+      description: "MCS Software House",
+      startTime: "16:35",
+      endTime: "17:40",
+    },
+    {
       name: "• Enkhjargal, CEO/Founder @tomyo.io \n• Naran, Co-founder/COO @Erxes Inc",
-      description:
-        "Panel: Global Fundraising",
+      description: "Panel: Global Fundraising",
       startTime: "16:55",
     },
     // {
@@ -743,47 +909,40 @@ export const events = {
   ],
   wo: [
     {
-      name: "Byambadorj, FullStack Engineer @Rendered AI",
-      description: "AWS Best practices",
+      name: "• Sarangerel, Lead Data Scientist \n • Amarsaikhan, ML engineer @And Systems Tech LLC",
+      description: "[Workshop] AutoML - Niko Scoring",
       startTime: "10:20",
     },
     {
-      name: "Dagvasumberel, Senior Hardware Engineer @Andorean",
-      description: "From the IoT to Metaverse",
+      name: "• Tushigt-Erdene, CIO @MetaMori NFT\n • Tugsjin, CTO @MetaMori NFT\n• Amin-Erdene, Art Director @MetaMori NFT",
+      description: "How to build NFT?",
       startTime: "15:50",
     },
-    // {
-    //   name: "Mmusic entertainment",
-    //   description: "Mmusic entertainment",
-    //   startTime: "17:40",
-    //   endTime: "14:00",
-    // },
     {
-      name: "Capitron Bank",
+      name: "Battogtokh, Senior manager @Capitron bank",
       description: "On cyber security",
-      startTime: "18:20",
+      startTime: "17:45",
     },
     {
-      name: "• Sarangerel, Lead Data Scientist \n • Amarsaikhan, ML engineer @And Systems Tech LLC",
-      description: "AutoML - Niko Scoring ",
-      startTime: "19:00",
+      name: "Munkh-Od, CTO @ DiverseSolutions",
+      description: "NFT Marketplace Smart Contracts",
+      startTime: "18:10",
     },
   ],
   a: [
     {
-      name: "• Zolboobayar, Tech Lead @ Meta Global Inc LLC \n • Usukhbayar,  Sr Mobile Developer @ Mezorn \n• Gansoronzon,  Sr Software Engineer @ Facebook / Meta\n• Anu, Front-end Developer @ SteppeLink LLC \n• Ariunaa, UX / UI designer @ And Systems Tech",
+      name: "• Zolboobayar, Tech Lead @ Meta Global Inc LLC \n • Usukhbayar,Head of Mobile Developmen @ Mezorn \n • Anu, Front-end Developer @ Meta Mori LLC \n• Ariunaa, UX / UI designer @ And Systems Tech",
       description: "Ask Me Anything",
       startTime: "10:40",
     },
     {
-      name: "• Tuvshintur, Founder @ KMP \n• Tungalag, Data Scientist @ Khan Bank\n• Khongorzul, ML Engineer @ MMusic \n• Tumur-Ochir, Senior ML Engineer@ And Systems Tech LLC",
+      name: "• Tungalag, Data Scientist @ Khan Bank\n• Khongorzul, ML Engineer @ MMusic \n• Tumur-Ochir, Senior ML Engineer@ And Systems Tech LLC",
       description: "Ask Me Anything",
       startTime: "11:40",
     },
     {
       name: "• Munkh-Od, CTO @ DiverseSolutions \n • Tuvshintsenguun, Software Test Engineer @ Input Output Global \n• Bilguun, Senior Software Engineer @ Unimedia Solutions",
-      description:
-        "Ask Me Anything",
+      description: "Ask Me Anything",
       startTime: "13:40",
     },
     {
@@ -800,50 +959,6 @@ export const events = {
       name: "• Monhoo, Indie Game Dev Developer @ Alpha Games \n• Batzorig, PM / VR Dev @ Digital Solutions Mongolia \n• Namuun, PM / VR Dev @ Digital Solutions Mongolia",
       description: "Ask Me Anything",
       startTime: "16:40",
-    }
+    },
   ],
-  // "Panel Discussions_": [
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "8:00",
-  //     endTime: "9:30",
-  //   },
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "10:00",
-  //     endTime: "11:00",
-  //   },
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "11:00",
-  //     endTime: "12:00",
-  //   },
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "13:00",
-  //     endTime: "14:00",
-  //   },
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "14:30",
-  //     endTime: "15:00",
-  //   },
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "16:00",
-  //     endTime: "18:00",
-  //   },
-  //   {
-  //     name: "Tech1 event",
-  //     description: "This is a tech event",
-  //     startTime: "18:00",
-  //     endTime: "20: 00",
-  //   },
-  // ],
 }

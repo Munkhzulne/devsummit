@@ -30,7 +30,7 @@ export const Where = () => {
           <div className="leftCon">
             <div className="text-header">Where when?_</div>
             <div className="text-20 mt-3">
-              January 22, 2022
+              March 19, 2022
               <br />
               @Corporate Hotel and Convention Centre
             </div>

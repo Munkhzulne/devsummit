@@ -10,7 +10,6 @@ import { Where } from "../components/where"
 import Speakers from "../components/speakers"
 import ContactUs from "../components/contact-us"
 import { SeeYou } from "../components/see-you"
-import AgendaNew from "../components/agendaNew"
 import { Test } from "../components/test"
 import { Helmet } from "react-helmet"
 const IndexPage = () => {

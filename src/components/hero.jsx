@@ -19,7 +19,7 @@ export const Hero = () => {
               developers_
             </div>
             <div className="text-20 text-bold">
-              January 22, 2022 <br />
+              March 19, 2022 <br />
               @Corporate Hotel and Convention Centre
             </div>
             <div className="d-flex flex-row">

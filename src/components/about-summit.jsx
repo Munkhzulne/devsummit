@@ -93,14 +93,12 @@ export const WhatIsSummit = () => {
                   Tech industry has rapidly been moving towards one where women
                   have more and more presence as time goes by. Today, we have
                   exceptional industry female leaders in the industry and this
-                  will only continue to grow. At DevSummit, we support
-                  Diversity. As part of this support, we are thrilled to have 2
-                  panel discussions with Mongolian female leaders in the tech
-                  industry and this session as a whole is called Women In Tech.
-                  Come to these panel discussions to hear about the challenges
-                  and success stories of women in tech in Mongolia and where we
-                  are headed. Remember: These panel discussions are open to
-                  everyone regardless of their gender.
+                  will only continue to grow. For 2022, we are co-hosting
+                  this section with Women Techmakers Mongolia that operates
+                  Google's Women Techmakers program in Mongolia. The WTM
+                  team and our team have worked together to support women in the
+                  technology industry and give them the opportunity to learn and
+                  be inspired by each other
                 </div>
               </Stack>
             </Col>
